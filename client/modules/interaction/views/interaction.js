@@ -259,7 +259,7 @@ define(['application', "marionette", './message', "./templates/interaction.tpl",
             sendClicked: function () {
                 var message = this.ui.messageInput.val();
                 if (message != '') {
-                    api.sendChatMessage(message, this.lang);
+                    api.sendChatMessage(message, this.language);
                     api.loginfo('[CLICK ACTION][CHAT] ' + message);
                 }
                 this.ui.messageInput.val('');
@@ -370,7 +370,7 @@ define(['application', "marionette", './message', "./templates/interaction.tpl",
                     });
                     annyang.addCallback('result', function (results) {
                         if (results.length) {
-                            api.sendChatMessage(results[0], self.lang);
+                            api.sendChatMessage(results[0], self.language);
                             api.loginfo('speech recognised: ' + results[0]);
                         }
                     });

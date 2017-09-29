@@ -86,8 +86,6 @@ define(['jquery', 'roslib', './utilities'], function ($, ROSLIB, utilities) {
             });
         },
         sendChatMessage: function (text, lang) {
-            console.log('Sending message: ' + text);
-
             var message = new ROSLIB.Message({
                 utterance: text,
                 lang: lang,
