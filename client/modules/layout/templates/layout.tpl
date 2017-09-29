@@ -24,6 +24,8 @@
                 <li><a href="#/expressions">Expressions</a></li>
                 <li><a href="#/motors">Motors</a></li>
                 <li><a href="#/interactions">Chat</a></li>
+                <li><a href="#/settings">Settings</a></li>
+
                 <li>
                     <a href="#" title="Report a bug" class="app-report-button"><i class="fa fa-exclamation-circle"></i></a>
                 </li>
