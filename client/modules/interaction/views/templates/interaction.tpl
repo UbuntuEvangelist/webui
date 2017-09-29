@@ -5,22 +5,6 @@
                 <button type="button" data-lang="en" class="btn btn-default btn-sm active">EN</button>
                 <button type="button" data-lang="zh" class="btn btn-default btn-sm">CN</button>
             </div>
-            <div class="app-recognition-select btn-group" role="group" aria-label="...">
-                <button type="button" data-method="webspeech" class="btn btn-default btn-sm active">webspeech
-                </button>
-                <button type="button" data-method="iflytek" class="btn btn-default btn-sm">iflytek</button>
-                <button type="button" data-method="dragon" class="btn btn-default btn-sm">dragon</button>
-            </div>
-            <div class="app-noise-container">
-                <button class="app-adjust-noise-button btn btn-default btn-sm" type="button" title="Adjust noise">
-                    <span class="glyphicon glyphicon-refresh" aria-hidden="true"></span>
-                </button>
-
-                <div class="app-noise-slider">
-                    <span class="app-noise-value"><span class="caption"></span>noise: <span
-                            class="value">500</span></span>
-                </div>
-            </div>
         </div>
         <div class="app-scrollbar">
             <div class="app-messages"></div>
@@ -38,9 +22,6 @@
             <span class="input-group-btn">
                     <button class="app-send-button btn btn-primary">Send</button>
                     <button class="app-shut-up-button btn btn-danger">ShutUp</button>
-                    <button class="app-rate-good-button btn btn-default btn-sm"><span class="glyphicon glyphicon-thumbs-up"></span></button>
-                    <button class="app-rate-bad-button btn-default btn"><span
-                            class="glyphicon glyphicon-thumbs-down"></span></button>
                     <button class="app-record-button btn btn-info"><i class="fa fa-microphone"></i></button>
                 </span>
         </div>

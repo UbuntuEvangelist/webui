@@ -85,11 +85,12 @@ define(['jquery', 'roslib', './utilities'], function ($, ROSLIB, utilities) {
                 console.log(error);
             });
         },
-        sendChatMessage: function (text) {
+        sendChatMessage: function (text, lang) {
             console.log('Sending message: ' + text);
 
             var message = new ROSLIB.Message({
                 utterance: text,
+                lang: lang,
                 confidence: Math.round(0.9 * 100),
                 source: 'web'
             });
@@ -269,28 +270,20 @@ define(['jquery', 'roslib', './utilities'], function ($, ROSLIB, utilities) {
             );
         },
         webSpeech: function (text, lang) {
-            var topic;
-            if (!lang) {
-                topic = api.topics.web_responses['default'];
-            } else {
-                topic = api.topics.web_responses[lang];
-            }
+            var topic = api.topics.web_responses;
             topic.publish(
                 new ROSLIB.Message({
-                    data: text
+                    text: text,
+                    lang: lang
                 })
             );
         },
         robotSpeech: function (text, lang) {
-            var topic;
-            if (!lang) {
-                topic = api.topics.tts['default'];
-            } else {
-                topic = api.topics.tts[lang];
-            }
+            var topic = api.topics.tts;
             topic.publish(
                 new ROSLIB.Message({
-                    data: text
+                    text: text,
+                    lang: lang
                 })
             );
         },
@@ -365,13 +358,19 @@ define(['jquery', 'roslib', './utilities'], function ($, ROSLIB, utilities) {
                 if (typeof success == 'function') success(lang);
             });
         },
+        getLanguagesList: function (success) {
+            var param = new ROSLIB.Param({ros: api.ros, name: '/' + api.config.robot + '/voices'});
+            param.get(function (voices) {
+                if (typeof success == 'function') success(_.keys(voices));
+            });
+
+        },
         setRobotLang: function (lang) {
             var language = null,
                 param = new ROSLIB.Param({ros: api.ros, name: '/' + api.config.robot + '/lang'});
             param.set(lang);
 
-            if (lang == 'en') language = 'en_us';
-            else if (lang == 'zh') language = 'zh_ch';
+
 
             if (language) this.setDynParam('/' + this.config.robot + '/speech_recognizer', 'language', language);
         },
@@ -514,9 +513,7 @@ define(['jquery', 'roslib', './utilities'], function ($, ROSLIB, utilities) {
             api.topics.chat_log.publish({data: JSON.stringify(message)});
         },
         setTtsMux: function (topic) {
-            api.services.tts_select.default.callService(new ROSLIB.ServiceRequest({topic: topic}));
-            api.services.tts_select.en.callService(new ROSLIB.ServiceRequest({topic: topic + '_en'}));
-            api.services.tts_select.zh.callService(new ROSLIB.ServiceRequest({topic: topic + '_zh'}));
+            api.services.tts_select.callService(new ROSLIB.ServiceRequest({topic: topic}));
         },
         setBTMode: function (mode) {
             api.topics.btMode.publish(

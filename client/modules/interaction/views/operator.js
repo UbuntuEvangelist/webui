@@ -49,6 +49,7 @@ define(['application', 'marionette', './templates/operator.tpl', 'lib/api', 'jqu
                 this.saySpeech(speech);
             },
             saySpeech: function (speech) {
+                console.log(app.language)
                 if (speech) {
                     this.ui.speechInput.val('');
                     if (this.mode == 'auto')
