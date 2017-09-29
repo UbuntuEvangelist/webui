@@ -8,9 +8,6 @@
     <div class="form-group" data-node-property="language">
         <label title="Language">Language</label>
         <select class="app-lang-select">
-            <option value="en">English</option>
-            <option value="zh">Mandarin</option>
-            <option value="audio">Audio</option>
         </select>
     </div>
 

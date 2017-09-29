@@ -141,6 +141,12 @@ define(['application', 'backbone', 'lib/api', 'jquery', 'supermodel'],
             getLabel: function() {
                 return this.getConfig().label
             },
+            getLanguage: function() {
+                let lang = this.model.get('lang');
+                if (lang == 'en'){lang = 'en-US'}
+                if (lang == 'zh'){lang = 'cmn-Hans-CN'}
+                return lang
+            },
             getTitle: function() {
                 var title = this.getLabel(),
                     name = this.get('name')

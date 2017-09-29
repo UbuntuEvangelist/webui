@@ -171,9 +171,16 @@ define(['application', 'marionette', './templates/node_select.tpl', '../entities
 
                 if (this.model.hasProperty('language')) {
                     if (!this.model.get('lang'))
-                        this.model.set('lang', 'en')
-                    this.ui.langSelect.val(this.model.get('lang'))
-                    $(self.ui.langSelect).select2()
+                        this.model.set('lang', 'en-US')
+                    api.getLanguagesList(function(languages){
+                        _.each(languages, function(lang){
+                            $(self.ui.langSelect).append($('<option>', {value:lang, text:lang.slice(-2)}))
+                        });
+                        $(self.ui.langSelect).append('audio')
+                        self.ui.langSelect.val(self.model.getLanguage())
+                        $(self.ui.langSelect).select2()
+                    });
+
                 }
 
                 if (this.model.hasProperty('btree_mode')) {
@@ -408,7 +415,7 @@ define(['application', 'marionette', './templates/node_select.tpl', '../entities
             },
             setTextDuration: function() {
                 let self = this
-                api.getTtsLength(this.ui.textInput.val(), this.model.get('lang'), function(response) {
+                api.getTtsLength(this.ui.textInput.val(), this.model.getLanguage(), function(response) {
                     self.model.set('duration', response.length)
                 })
             },
