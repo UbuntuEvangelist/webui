@@ -142,7 +142,7 @@ define(['application', 'backbone', 'lib/api', 'jquery', 'supermodel'],
                 return this.getConfig().label
             },
             getLanguage: function() {
-                let lang = this.model.get('lang');
+                let lang = this.get('lang');
                 if (lang == 'en'){lang = 'en-US'}
                 if (lang == 'zh'){lang = 'cmn-Hans-CN'}
                 return lang
