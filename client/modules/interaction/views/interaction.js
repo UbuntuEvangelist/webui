@@ -28,8 +28,6 @@ define(['application', "marionette", './message', "./templates/interaction.tpl",
                 'click @ui.sendButton': 'sendClicked',
                 'click @ui.shutUpButton': 'shutUpClicked',
                 'click @ui.languageButton': 'languageButtonClick',
-                'click @ui.rateGoodButton': 'rateGoodClicked',
-                'click @ui.rateBadButton': 'rateBadClicked'
             },
             childViewOptions: function () {
                 return {
@@ -68,6 +66,7 @@ define(['application', "marionette", './message', "./templates/interaction.tpl",
                     });
                     // set current language
                     api.getRobotLang(function (language) {
+                        console.log(language)
                         self.changeLanguage(language);
                     });
                 });

@@ -369,9 +369,6 @@ define(['jquery', 'roslib', './utilities'], function ($, ROSLIB, utilities) {
             var language = null,
                 param = new ROSLIB.Param({ros: api.ros, name: '/' + api.config.robot + '/lang'});
             param.set(lang);
-
-
-
             if (language) this.setDynParam('/' + this.config.robot + '/speech_recognizer', 'language', language);
         },
         /**
