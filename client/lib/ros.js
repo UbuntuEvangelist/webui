@@ -70,7 +70,7 @@ define(['jquery', 'roslib', 'js-yaml', './api'], function($, ROSLIB, jsyaml, api
                 speech_topic: new ROSLIB.Topic({
                     ros: api.ros,
                     name: '/' + api.config.robot + '/speech',
-                    messageType: 'chatbot/ChatMessage'
+                    messageType: 'hr_msgs/ChatMessage'
                 }),
                 expression: new ROSLIB.Topic({
                     ros: api.ros,
