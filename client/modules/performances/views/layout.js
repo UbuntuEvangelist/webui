@@ -102,12 +102,12 @@ define(['application', 'marionette', 'backbone', './templates/layout.tpl', 'lib/
             registerShortcuts: function() {
                 let self = this
                 Mousetrap.bind('y', function() {
-                    if (self.editing)
+                    if (self.changeCheckResult === null)
                         self.ui.saveChanges.click()
                 })
 
                 Mousetrap.bind('n', function() {
-                    if (self.editing)
+                    if (self.changeCheckResult === null)
                         self.ui.discardChanges.click()
                 })
 
