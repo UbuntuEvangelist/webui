@@ -270,6 +270,11 @@ define(['application', 'marionette', './templates/node_select.tpl', '../entities
                             cursorAt: {top: 0, left: 0}
                         })
 
+                    if (typeof options.preview === 'function')
+                        thumbnail.dblclick(function() {
+                            options.preview(val)
+                        })
+
                     container.append(thumbnail)
                 })
 
@@ -328,7 +333,11 @@ define(['application', 'marionette', './templates/node_select.tpl', '../entities
                 Mousetrap.unbind('backspace')
             },
             updateEmotions: function(emotions) {
-                this.initList(emotions, 'emotion', this.ui.emotionList)
+                this.initList(emotions, 'emotion', this.ui.emotionList, {
+                    preview: function(e) {
+                        api.setEmotion(e, 1, 3)
+                    }
+                })
             },
             setKFAnimationDurationCallback: function() {
                 this.setKFAnimationDuration(this.model)
@@ -347,7 +356,11 @@ define(['application', 'marionette', './templates/node_select.tpl', '../entities
                 this.initList(expressions, 'expression', this.ui.expressionList)
             },
             updateGestures: function(gestures) {
-                this.initList(gestures, 'gesture', this.ui.gestureList)
+                this.initList(gestures, 'gesture', this.ui.gestureList, {
+                    preview: function(e) {
+                        api.setGesture(e, 1, 1)
+                    }
+                })
             },
             updateSomaStates: function(somas) {
                 this.initList(somas, 'soma', this.ui.somaList)
