@@ -188,13 +188,13 @@ define(['jquery', 'roslib', './utilities'], function ($, ROSLIB, utilities) {
          * @param magnitude
          */
         setGesture: function (name, repeat, speed, magnitude) {
-            if (typeof repeat == 'undefined')
+            if (typeof repeat === 'undefined')
                 repeat = 1;
 
-            if (typeof speed == 'undefined')
+            if (typeof speed === 'undefined')
                 speed = 0.5;
 
-            if (typeof magnitude == 'undefined')
+            if (typeof magnitude === 'undefined')
                 magnitude = 1;
 
             api.topics.set_gesture.publish(

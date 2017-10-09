@@ -199,11 +199,12 @@
 }
 
 .app-scroll-container {
+    padding-bottom: 15px;
     position: relative;
 }
 
 .app-node-settings .app-crosshair {
-    margin-top: 10px;
+    margin-top: 3px;
 }
 
 .app-timelines {
