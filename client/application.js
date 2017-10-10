@@ -20,7 +20,7 @@ define(['backbone', 'marionette', 'modules/layout/layout', 'lib/ros', 'lib/api',
                             Backbone.history.start({pushState: false})
                     })
                 },
-                language: 'en',
+                language: 'en-US',
                 Utilities: {
                     showPopover: function(el, label, placement) {
                         placement = placement || 'right'
