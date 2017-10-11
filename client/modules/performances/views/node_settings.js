@@ -252,6 +252,7 @@ define(['application', 'marionette', './templates/node_settings.tpl', '../entiti
             },
             addPerformance: function() {
                 this.collection.add(this.model)
+
                 this.ui.createButton.fadeOut()
             },
             setDuration: function() {

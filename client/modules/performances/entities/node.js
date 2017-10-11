@@ -109,7 +109,7 @@ define(['application', 'backbone', 'lib/api', 'jquery', 'supermodel'],
                 this.setDefaultValues()
             },
             setDefaultValues: function() {
-                var defaultValues = this.getConfig().defaultValues
+                let defaultValues = this.getConfig().defaultValues
                 if (defaultValues) this.set(_.extend(_.clone(defaultValues), this.attributes))
             },
             call: function() {
@@ -143,15 +143,15 @@ define(['application', 'backbone', 'lib/api', 'jquery', 'supermodel'],
             },
             getLanguage: function() {
                 let lang = this.get('lang');
-                if (lang == 'en'){lang = 'en-US'}
-                if (lang == 'zh'){lang = 'cmn-Hans-CN'}
+                if (lang === 'en'){lang = 'en-US'}
+                if (lang === 'zh'){lang = 'cmn-Hans-CN'}
                 return lang
             },
             getTitle: function() {
-                var title = this.getLabel(),
+                let title = this.getLabel(),
                     name = this.get('name')
 
-                if (name == 'speech')
+                if (name === 'speech')
                     title = this.get('text')
                 else if (name === 'emotion')
                     title = this.get('emotion')
@@ -159,9 +159,9 @@ define(['application', 'backbone', 'lib/api', 'jquery', 'supermodel'],
                     title = this.get('gesture')
                 else if (name === 'expression')
                     title = this.get('expression')
-                else if (name == 'animation' || name == 'kfanimation')
+                else if (name === 'animation' || name === 'kfanimation')
                     title = this.get('animation')
-                else if (name == 'gaze_at' || name == 'look_at')
+                else if (name === 'gaze_at' || name === 'look_at')
                     title = this.get('attention_region')
 
                 return title || name
@@ -173,9 +173,9 @@ define(['application', 'backbone', 'lib/api', 'jquery', 'supermodel'],
                 if (this.get('el')) $(this.get('el')).remove()
             },
             toJSON: function() {
-                var el = this.get('el')
+                let el = this.get('el')
                 this.unset('el', {silent: true})
-                var json = Supermodel.Model.prototype.toJSON.call(this)
+                let json = Supermodel.Model.prototype.toJSON.call(this)
                 this.set('el', el, {silent: true})
                 return json
             },
@@ -187,8 +187,11 @@ define(['application', 'backbone', 'lib/api', 'jquery', 'supermodel'],
                 Supermodel.Model.prototype.destroy.call(this)
             },
             save: function(attrs, options) {
-                if (this.get('name') != 'settings')
+                if (this.get('name') !== 'settings')
                     Supermodel.Model.prototype.save.call(this, attrs, options)
+            },
+            getEndTime: function() {
+                return this.get('start_time') + this.get('duration') || 1
             }
         })
     })

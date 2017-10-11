@@ -162,8 +162,7 @@ define(['application', 'marionette', './templates/node.tpl', 'lib/api', 'undersc
                 return width
             },
             hideSettings: function(success) {
-                let self = this,
-                    selectView = this.getRegion('select').currentView,
+                let selectView = this.getRegion('select').currentView,
                     settingsView = this.getRegion('settings').currentView
 
                 this.stopListening(this.node, 'change')
@@ -172,10 +171,10 @@ define(['application', 'marionette', './templates/node.tpl', 'lib/api', 'undersc
                 if (settingsView) {
                     $(selectView.$el).hide()
                     this.ui.container.addClass('app-disabled')
-                    success()
+                    if (typeof success === 'function') success()
                 } else {
                     this.ui.container.addClass('app-disabled')
-                    success()
+                    if (typeof success === 'function') success()
                 }
             },
             showSettings: function(node) {

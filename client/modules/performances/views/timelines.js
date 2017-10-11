@@ -146,6 +146,7 @@ define(['application', 'marionette', './templates/timelines.tpl', 'd3', 'bootbox
                             }
 
                             self.hideSpinner()
+                            self.arrangeNodes()
                             if (success) success()
                         }
                     }
@@ -203,8 +204,9 @@ define(['application', 'marionette', './templates/timelines.tpl', 'd3', 'bootbox
                                 let startTime = Math.round(($(this).scrollLeft() + ui.offset.left - $(this).offset().left) /
                                     self.config.pxPerSec * 100) / 100
 
-                                self.model.nodes.add(node)
                                 node.set('start_time', startTime)
+                                self.model.nodes.add(node)
+                                self.focusNode(node)
                             }
                             self.showNodeSettings(node)
                         }
@@ -278,8 +280,6 @@ define(['application', 'marionette', './templates/timelines.tpl', 'd3', 'bootbox
                 this.listenTo(this.model.nodes, 'add', this.addNode)
                 this.listenTo(this.model.nodes, 'reset', this.arrangeNodes)
                 this.listenTo(this.model.nodes, 'remove', this.removeNode)
-                this.removeNodeElements()
-                this.arrangeNodes()
 
                 // add resize event
                 let updateWidth = function() {
@@ -483,7 +483,6 @@ define(['application', 'marionette', './templates/timelines.tpl', 'd3', 'bootbox
 
                 node.set('el', el.get(0), {silent: true})
                 this.listenTo(node, 'change', this.placeNode)
-                this.listenTo(node, 'change', this.focusNode)
                 this.listenTo(node, 'change', this.updateNodeEl)
                 this.updateNodeEl(node)
 
@@ -743,13 +742,13 @@ define(['application', 'marionette', './templates/timelines.tpl', 'd3', 'bootbox
             },
             addNode: function(node) {
                 this.placeNode(node)
-                this.updateTimelineWidth()
+                this.updateTimelineWidth(Math.max(node.getEndTime(), this.model.getDuration()) * this.config.pxPerSec)
                 this.focusNode(node)
             },
             focusNode: function(node) {
                 let el = $(node.get('el'))
-                if (el.length)
-                    this.ui.scrollContainer.scrollTo(el)
+                if (this.ui.scrollContainer.has(el))
+                    this.ui.scrollContainer.scrollTo(el, 500)
             },
             removeNode: function(node) {
                 this.stopListening(node)
@@ -842,18 +841,23 @@ define(['application', 'marionette', './templates/timelines.tpl', 'd3', 'bootbox
             getTimelineWidth: function() {
                 return this.model.getDuration() * this.config.pxPerSec
             },
-            updateTimelineWidth: function() {
-                let timelineWidth = this.getTimelineWidth(),
-                    containerWidth = this.ui.timelines.width(),
+            /**
+             * @param timelineWidth in pixels
+             */
+            updateTimelineWidth: function(timelineWidth) {
+                if (!timelineWidth)
+                    timelineWidth = this.getTimelineWidth()
+
+                let containerWidth = this.ui.timelines.width(),
                     width = Math.max(timelineWidth, containerWidth),
                     scale = d3.scaleLinear().domain([0, width / this.config.pxPerSec]).range([0, width])
+
+                if (timelineWidth < containerWidth || !containerWidth)
+                    width = '100%'
 
                 // update axis
                 this.ui.timeAxis.html('').width(width)
                 d3.select(this.ui.timeAxis.get(0)).call(d3.axisBottom().scale(scale))
-
-                if (timelineWidth < containerWidth || !containerWidth)
-                    width = '100%'
 
                 this.ui.timelines.find('.app-timeline-nodes').css('width', width)
                 this.ui.scrollContainer.perfectScrollbar('update')

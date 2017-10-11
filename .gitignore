@@ -2,3 +2,5 @@
 *.pyc
 venv
 node_modules
+public/build/*
+data/chat/*
