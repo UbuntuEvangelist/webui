@@ -16,6 +16,10 @@ define(['backgrid', 'backgrid-css', 'jquery', 'backgrid-text-cell', 'backgrid-te
             }
         })
     }, {
+        name: "assembly",
+        label: "Assembly",
+        cell: "string"
+    }, {
         name: "group",
         label: "Group",
         cell: "string"

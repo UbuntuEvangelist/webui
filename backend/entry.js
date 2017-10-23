@@ -28,6 +28,10 @@ let express = require('express'),
             describe: 'Port',
             default: 8003
         },
+        a: {
+            alias: 'assemblies',
+            describe: 'Configs for different parts',
+        },
         s: {
             alias: 'ssl',
             describe: 'Enable ssl',
@@ -75,7 +79,19 @@ app.get('/monitor/status', function(req, res) {
 })
 
 app.get('/motors/get/:name', function(req, res) {
-    res.json({motors: yamlIO.readFile(path.join(argv.config, req.params['name'], 'motors_settings.yaml')) || []})
+    let all_motors = false;
+    for (assembly of argv.assemblies.split(' ')){
+        let assembly_motors = yamlIO.readFile(path.join(assembly, 'motors_settings.yaml')) || []
+        for (am of assembly_motors){
+            am['assembly'] = path.basename(assembly)
+        }
+        if (all_motors){
+            all_motors = all_motors.concat(assembly_motors)
+        }else{
+            all_motors = assembly_motors
+        }
+    }
+    res.json({motors: all_motors})
 })
 
 app.get('/say/:text', function(req, res) {
@@ -85,9 +101,31 @@ app.get('/say/:text', function(req, res) {
 
 app.post('/motors/update/:name', function(req, res) {
     let robot_name = req.params['name']
-    yamlIO.writeFile(path.join(argv.config, robot_name, 'motors_settings.yaml'), req.body)
-    ros.updateMotors(robot_name, req.body)
-    res.json({error: false})
+    let assemblies = {}
+    let err = ""
+    for (let m of req.body){
+        // dont save assembly in config files
+        let assembly = m['assembly']
+        delete m['assembly']
+        if (!assemblies[assembly]) assemblies[assembly] = []
+        assemblies[assembly].push(m)
+    }
+    // Saving separate assembly files
+    for (let assembly of argv.assemblies.split(' ')){
+        if (path.basename(assembly) in assemblies){
+            yamlIO.writeFile(path.join(assembly,'motors_settings.yaml'), assemblies[path.basename(assembly)])
+            delete assemblies[path.basename(assembly)]
+        }else{
+            err = err + "No motors for " + path.basename(assembly)+"; "
+        }
+    }
+    for (let assembly in assemblies){
+        err = err + assembly +  " not found; "
+    }
+
+//    yamlIO.writeFile(path.join(argv.config, robot_name, 'motors_settings.yaml'), req.body)
+//    ros.updateMotors(robot_name, req.body)
+    res.json({error: (err || false)})
 })
 
 app.get('/expressions/:name', function(req, res) {
