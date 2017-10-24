@@ -33,13 +33,13 @@ define(['jquery', 'roslib', './utilities'], function ($, ROSLIB, utilities) {
         setExpressionsParam: function (expressions) {
             var param = new ROSLIB.Param({
                 ros: api.ros,
-                name: '/' + api.config.robot + '/expressions'
+                name: '/' + api.config.robot + '/all_expressions'
             });
             param.set(expressions);
         },
         getAnimations: function (callback) {
             var self = this;
-            this.getRosParam('/' + api.config.robot + '/animations', function (data) {
+            this.getRosParam('/' + api.config.robot + '/all_animations', function (data) {
                 var animations = [];
                 if (Array.isArray(data))
                     $.each(data, function (i, animation) {
