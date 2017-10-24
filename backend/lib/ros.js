@@ -59,11 +59,10 @@ var self = module.exports = function(robot_name){
                 messageType: 'chatbot/ChatMessage'
             })
         },
-        updateMotors: function (robot_name, motors, assemblies) {
+        updateMotors: function (robot_name, motors) {
             this.services.updateMotors.callService({
                 robot_name: robot_name,
-                motors: JSON.stringify(motors),
-                assemblies: assemblies
+                motors: JSON.stringify(motors)
             }, function (res) {
                 console.log(res);
             });

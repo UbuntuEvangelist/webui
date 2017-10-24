@@ -123,7 +123,7 @@ app.post('/motors/update/:name', function(req, res) {
     for (let assembly in assemblies){
         err = err + assembly +  " not found; "
     }
-    ros.updateMotors(robot_name, motors, argv.assemblies.split(' '))
+    ros.updateMotors(robot_name, motors)
     res.json({error: (err || false)})
 })
 

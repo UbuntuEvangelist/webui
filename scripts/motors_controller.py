@@ -37,14 +37,14 @@ def kill_node(node):
 class MotorsController:
     def __init__(self):
         rospy.init_node('motors_controller')
+        self.assemblies = rospy.get_param('/assemblies')
         rospy.Service('~update_motors', srv.UpdateMotors, self.update_motors)
         rospy.Service('~update_expressions', srv.UpdateExpressions, self.update_expressions)
         self.config_root = rospy.get_param('/robots_config_dir')
         rospy.spin()
 
     def update_motors(self, req):
-        rospy.logerr(req.assemblies)
-        configs = Configs(req.assemblies)
+        configs = Configs(self.assemblies)
         robot_name = req.robot_name
         configs.parseMotors(json.loads(req.motors))
         for k, assembly  in configs.assemblies.iteritems():
