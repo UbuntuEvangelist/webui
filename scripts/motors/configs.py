@@ -113,6 +113,7 @@ class Configs:
         c = copy.deepcopy(self._MOTORS_TPL)
         # Copy values to template
         c['name'] = m['name']
+        c['assembly'] = m['assembly']
         c['topic'] = m['name']
         c['labelleft'] = m['name']
         c['min'] = self.dynamixel_angle(m, m['min'])
