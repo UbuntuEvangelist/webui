@@ -1,4 +1,5 @@
 string robot_name
 string motors
+string[] assemblies
 ---
 bool success

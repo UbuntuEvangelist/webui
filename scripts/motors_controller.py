@@ -43,22 +43,24 @@ class MotorsController:
         rospy.spin()
 
     def update_motors(self, req):
-        configs = Configs()
+        rospy.logerr(req.assemblies)
+        configs = Configs(req.assemblies)
         robot_name = req.robot_name
         configs.parseMotors(json.loads(req.motors))
-        if len(configs.dynamixel) > 0:
-            file_name = os.path.join(self.config_root, robot_name, "dynamixel.yaml")
-            write_yaml(file_name, configs.dynamixel)
-            load_params(file_name, "/{}/safe".format(robot_name))
-        if len(configs.motors) > 0:
-            file_name = os.path.join(self.config_root, robot_name, "motors.yaml")
-            write_yaml(file_name, {'motors': configs.motors})
-            load_params(file_name, "/{}".format(robot_name))
-        if len(configs.pololu) > 0:
-            for board, config in configs.pololu.iteritems():
-                file_name = os.path.join(self.config_root, robot_name, board + ".yaml")
-                write_yaml(file_name, config)
-                kill_node("/{}/pololu_{}".format(robot_name, board))
+        for k, assembly  in configs.assemblies.iteritems():
+            if len(assembly['dynamixel']) > 0:
+                file_name = os.path.join(assembly['assembly'], "dynamixel.yaml")
+                write_yaml(file_name, assembly['dynamixel'])
+                load_params(file_name, "/{}/safe".format(robot_name))
+            if len(assembly['motors']) > 0:
+                file_name = os.path.join(assembly['assembly'], "motors.yaml")
+                write_yaml(file_name, {'motors': assembly['motors']})
+                load_params(file_name, "/{}".format(robot_name))
+            if len(assembly['pololu']) > 0:
+                for board, config in assembly['pololu'].iteritems():
+                    file_name = os.path.join(assembly['assembly'], board + ".yaml")
+                    write_yaml(file_name, config)
+                    kill_node("/{}/pololu_{}".format(robot_name, board))
         kill_node("/{}/pau2motors".format(robot_name))
         kill_node("/{}/basic_head_api".format(robot_name))
         return srv.UpdateMotorsResponse(True)

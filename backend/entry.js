@@ -103,6 +103,7 @@ app.post('/motors/update/:name', function(req, res) {
     let robot_name = req.params['name']
     let assemblies = {}
     let err = ""
+    let motors = JSON.parse(JSON.stringify(req.body));
     for (let m of req.body){
         // dont save assembly in config files
         let assembly = m['assembly']
@@ -122,9 +123,7 @@ app.post('/motors/update/:name', function(req, res) {
     for (let assembly in assemblies){
         err = err + assembly +  " not found; "
     }
-
-//    yamlIO.writeFile(path.join(argv.config, robot_name, 'motors_settings.yaml'), req.body)
-//    ros.updateMotors(robot_name, req.body)
+    ros.updateMotors(robot_name, motors, argv.assemblies.split(' '))
     res.json({error: (err || false)})
 })
 
