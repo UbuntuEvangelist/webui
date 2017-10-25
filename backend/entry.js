@@ -113,6 +113,7 @@ app.post('/motors/update/:name', function(req, res) {
     }
     // Saving separate assembly files
     for (let assembly of argv.assemblies.split(' ')){
+        if (!assembly) continue;
         if (path.basename(assembly) in assemblies){
             yamlIO.writeFile(path.join(assembly,'motors_settings.yaml'), assemblies[path.basename(assembly)])
             delete assemblies[path.basename(assembly)]
@@ -128,13 +129,19 @@ app.post('/motors/update/:name', function(req, res) {
 })
 
 app.get('/expressions/:name', function(req, res) {
-    res.json(yamlIO.readFile(path.join(argv.config, req.params['name'], 'expressions.yaml')) || {})
+    let  data = {expressions: []}
+    for (let assembly of argv.assemblies.split(' ')){
+        if (!assembly) continue;
+        let contents =  yamlIO.readFile(path.join(assembly, 'expressions.yaml')) || {expressions: []}
+        data.expressions = data.expressions.concat(contents.expressions)
+    }
+    res.json(data)
 })
 
 app.post('/expressions/update/:name', function(req, res) {
     let robot_name = req.params['name']
-    let save = {error: !yamlIO.writeFile(path.join(argv.config, req.params['name'], 'expressions.yaml'), req.body)}
-    ros.updateExpressions(robot_name)
+    save = ros.saveExpressions(robot_name, req.body)
+    //ros.updateExpressions(robot_name)
     res.json(save)
 })
 
@@ -152,8 +159,8 @@ app.post('/attention_regions/:name', function(req, res) {
 
 app.post('/animations/update/:name', function(req, res) {
     let robot_name = req.params['name']
-    let save = {error: !yamlIO.writeFile(path.join(argv.config, req.params['name'], 'animations.yaml'), req.body)}
-    ros.updateExpressions(robot_name)
+    save = ros.saveAnimations(robot_name, req.body)
+    //ros.updateExpressions(robot_name)
     res.json(save)
 })
 

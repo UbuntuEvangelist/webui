@@ -40,6 +40,8 @@ class MotorsController:
         self.assemblies = rospy.get_param('/assemblies')
         rospy.Service('~update_motors', srv.UpdateMotors, self.update_motors)
         rospy.Service('~update_expressions', srv.UpdateExpressions, self.update_expressions)
+        rospy.Service('~save_expressions', srv.UpdateMotors, self.save_expressions)
+        rospy.Service('~save_animations', srv.UpdateMotors, self.save_animations)
         self.config_root = rospy.get_param('/robots_config_dir')
         rospy.spin()
 
@@ -64,6 +66,66 @@ class MotorsController:
         kill_node("/{}/pau2motors".format(robot_name))
         kill_node("/{}/basic_head_api".format(robot_name))
         return srv.UpdateMotorsResponse(True)
+
+    def save_expressions(self, req):
+        robot_name = req.robot_name
+        motors = rospy.get_param('/{}/motors'.format(robot_name))
+        # Using same service type as saving motors
+        data = json.loads(req.motors)
+        config_files = {}
+        for a in self.assemblies:
+            config_files[os.path.basename(a)] = {'assembly':a, 'data':{'expressions': []}}
+        # Find assembly by first motor name
+        for expression in data['expressions']:
+            try:
+                motor = expression.values()[0].keys()[0]
+                assembly = motors[motor]['assembly']
+                config_files[assembly]['data']['expressions'].append(expression)
+            except Exception as e:
+                rospy.logerr(e)
+                raise e
+
+        for cfg in config_files.values():
+            if len(cfg['data']['expressions']) == 0:
+                # Expressions file is unecessary for the assembly
+                try:
+                    os.remove(os.path.join(cfg['assembly'], 'expressions.yaml'))
+                except OSError:
+                    pass
+            write_yaml(os.path.join(cfg['assembly'], 'expressions.yaml'), cfg['data'])
+        return srv.UpdateMotorsResponse(True)
+
+    def save_animations(self, req):
+        robot_name = req.robot_name
+        motors = rospy.get_param('/{}/motors'.format(robot_name))
+        # Using same service type as saving motors
+        data = json.loads(req.motors)
+        config_files = {}
+        for a in self.assemblies:
+            config_files[os.path.basename(a)] = {'assembly':a, 'data':{'animations': []}}
+        # Find assembly by first motor name
+        for animation in data['animations']:
+            try:
+                # Rather complicated structure of animations file
+                motor = animation.values()[0][0]['motors'].keys()[0]
+                assembly = motors[motor]['assembly']
+                config_files[assembly]['data']['animations'].append(animation)
+            except IndexError:
+                continue
+            except Exception as e:
+                rospy.logerr(e)
+                rospy.logerr(animation.values()[0])
+                raise e
+        for cfg in config_files.values():
+            if len(cfg['data']['animations']) == 0:
+                # Expressions file is unecessary for the assembly
+                try:
+                    os.remove(os.path.join(cfg['assembly'], 'animations.yaml'))
+                except OSError:
+                    pass
+            write_yaml(os.path.join(cfg['assembly'], 'animations.yaml'), cfg['data'])
+        return srv.UpdateMotorsResponse(True)
+
 
     def update_expressions(self, req):
         robot_name = req.robot_name
