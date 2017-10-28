@@ -9,7 +9,8 @@ define(['bootbox', 'icheck', 'icheck/skins/polaris/polaris.css'], function(bootb
             duration: '.app-duration',
             removeButton: '.app-remove-button',
             dragHandle: '.app-drag-handle',
-            enableCheckbox: '.app-enable-checkbox'
+            enableCheckbox: '.app-enable-checkbox',
+            enableLabel: '.app-enable-label'
         },
         initialize: function(options) {
             this.mergeOptions(options, ['layoutView', 'readonly', 'queueView'])
@@ -35,7 +36,10 @@ define(['bootbox', 'icheck', 'icheck/skins/polaris/polaris.css'], function(bootb
             if (!this.queueView.playEnabled)
                 this.ui.playButton.hide()
 
-            if (this.readonly) this.ui.removeButton.hide()
+            if (this.readonly) {
+                this.ui.enableLabel.hide()
+                this.ui.removeButton.hide()
+            }
 
             let enabled = performance.get('enabled')
             enabled = typeof enabled === 'undefined' || enabled

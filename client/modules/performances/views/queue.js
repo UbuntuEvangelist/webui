@@ -10,7 +10,7 @@ define(['marionette', 'backbone', './timelines', 'underscore', 'lib/regions/fade
                 behaviorClass: Marionette.SortableBehavior,
                 axis: "y",
                 handle: ".app-drag-handle",
-                placeholder: "ui-state-highlight",
+                placeholder: "ui-state-highlight"
             }],
             events: {
                 'sortupdate': 'onSortUpdate'
