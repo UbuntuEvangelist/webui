@@ -51,7 +51,7 @@ define(['jquery', 'roslib', './utilities'], function ($, ROSLIB, utilities) {
             })
         },
         setAnimations: function (animations) {
-            this.setRosParam('/' + api.config.robot + '/animations', animations);
+            this.setRosParam('/' + api.config.robot + '/all_animations', animations);
             this.animations = [];
         },
         updateAnimations: function (animations, successCallback, errorCallback) {
