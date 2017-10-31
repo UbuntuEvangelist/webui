@@ -5,6 +5,7 @@ import copy
 import math
 import json
 import rospy
+import os.path
 
 class ConfigError(Exception):
     pass
@@ -79,13 +80,22 @@ class Configs:
         'speed': 0,
         'acceleration': 0,
     }
-    def __init__(self):
+    def __init__(self, assemblies):
         # Multiple configs for pololu boards
         self.pololu = {}
-        # Dynamixel manager config.
         self.dynamixel = {}
         # Motors config for other nodes to use. Currently dynamixels only included but pololu callibration will be moved.
-        self.motors = []
+        self.assemblies = {}
+        # Empty assemblies
+        for a in assemblies:
+            self.assemblies[os.path.basename(a)] = {
+                'assembly': a,
+                'dynamixel': {},        # Dynamixel manager config.
+                'pololu': {},
+                'motors': {}            # Unified motors configs
+            }
+
+
 
     # Parse motors
     def parseMotors(self,motors):
@@ -103,6 +113,7 @@ class Configs:
         c = copy.deepcopy(self._MOTORS_TPL)
         # Copy values to template
         c['name'] = m['name']
+        c['assembly'] = m['assembly']
         c['topic'] = m['name']
         c['labelleft'] = m['name']
         c['min'] = self.dynamixel_angle(m, m['min'])
@@ -113,7 +124,6 @@ class Configs:
         c['motor_id'] = m['motor_id']
         c['init'] = m['init']
         pau = self._get_pau(m)
-
         if pau:
             c['pau'] = pau
 
@@ -128,7 +138,7 @@ class Configs:
             c['speed'] = m['speed']
             c['acceleration'] = m['acceleration']
             c['default'] = 0
-        self.motors.append(c)
+        self.assemblies[m['assembly']]['motors'][m['name']] = c
 
     @staticmethod
     def _pololu_calibration(motor):
@@ -200,7 +210,7 @@ class Configs:
         c['motor']['max'] = m['max']
         c['motor']['acceleration'] = m['acceleration']
         name = m['name'] +'_controller'
-        self.dynamixel[name] = c
+        self.assemblies[m['assembly']]['dynamixel'][name] = c
 
     def _add_pololu(self,m):
         # Only pololu currently
@@ -221,9 +231,9 @@ class Configs:
         if pau:
             c['pau'] = pau
         board = m['topic']
-        if not board in self.pololu.keys():
-            self.pololu[board] = {}
-        self.pololu[board][m['name']] = c
+        if not board in self.assemblies[m['assembly']]['pololu'].keys():
+            self.assemblies[m['assembly']]['pololu'][board] = {}
+        self.assemblies[m['assembly']]['pololu'][board][m['name']] = c
 
 
 

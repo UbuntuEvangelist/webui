@@ -33,13 +33,13 @@ define(['jquery', 'roslib', './utilities'], function ($, ROSLIB, utilities) {
         setExpressionsParam: function (expressions) {
             var param = new ROSLIB.Param({
                 ros: api.ros,
-                name: '/' + api.config.robot + '/expressions'
+                name: '/' + api.config.robot + '/all_expressions'
             });
             param.set(expressions);
         },
         getAnimations: function (callback) {
             var self = this;
-            this.getRosParam('/' + api.config.robot + '/animations', function (data) {
+            this.getRosParam('/' + api.config.robot + '/all_animations', function (data) {
                 var animations = [];
                 if (Array.isArray(data))
                     $.each(data, function (i, animation) {
@@ -51,7 +51,7 @@ define(['jquery', 'roslib', './utilities'], function ($, ROSLIB, utilities) {
             })
         },
         setAnimations: function (animations) {
-            this.setRosParam('/' + api.config.robot + '/animations', animations);
+            this.setRosParam('/' + api.config.robot + '/all_animations', animations);
             this.animations = [];
         },
         updateAnimations: function (animations, successCallback, errorCallback) {
@@ -315,6 +315,7 @@ define(['jquery', 'roslib', './utilities'], function ($, ROSLIB, utilities) {
                 self = this;
 
             param.get(function (motors) {
+                motors = Object.values(motors);
                 motors.sort(function (a, b) {
                     return parseFloat(a.sort_no) - parseFloat(b.sort_no)
                 });

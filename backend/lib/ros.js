@@ -45,6 +45,16 @@ var self = module.exports = function(robot_name){
                 ros: ros,
                 name: '/webui/motors_controller/update_expressions',
                 serviceType: 'webui/UpdateExpressions'
+            }),
+            saveExpressions: new ROSLIB.Service({
+                ros: ros,
+                name: '/webui/motors_controller/save_expressions',
+                serviceType: 'webui/UpdateMotors'
+            }),
+            saveAnimations: new ROSLIB.Service({
+                ros: ros,
+                name: '/webui/motors_controller/save_animations',
+                serviceType: 'webui/UpdateMotors'
             })
         },
         topics: {
@@ -100,6 +110,22 @@ var self = module.exports = function(robot_name){
         updateExpressions: function (robot_name) {
             this.services.updateExpressions.callService({
                 robot_name: robot_name,
+            }, function (res) {
+                console.log(res);
+            });
+        },
+        saveExpressions: function (robot_name, data) {
+            this.services.saveExpressions.callService({
+                robot_name: robot_name,
+                motors: JSON.stringify(data)
+            }, function (res) {
+                console.log(res);
+            });
+        },
+        saveAnimations: function (robot_name, data) {
+            this.services.saveAnimations.callService({
+                robot_name: robot_name,
+                motors: JSON.stringify(data)
             }, function (res) {
                 console.log(res);
             });
