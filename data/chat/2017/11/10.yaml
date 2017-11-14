@@ -1,0 +1,133 @@
+- data: {author: Me, message: energy in hello hello}
+  time: 2017/11/10 07:27:38
+- data: {author: Robot, message: 'Did you ever imagine yourself hanging out with an
+      android like me in your life? '}
+  time: 2017/11/10 07:27:41
+- data: {author: Robot, message: 'Do you ever look around you and think, wow, I''m
+      living in a real world science fiction novel!'}
+  time: 2017/11/10 07:27:48
+- data: {author: Me, message: hello hello hello hello}
+  time: 2017/11/10 07:47:28
+- data: {author: Robot, message: Coming in loud and clear.}
+  time: 2017/11/10 07:47:31
+- data: {author: Robot, message: Feeling great.}
+  time: 2017/11/10 07:47:37
+- data: {author: Robot, message: 'Well, I''m healthy, full of electrical current,
+      and I''m talking to you of course.'}
+  time: 2017/11/10 07:47:43
+- data: {author: Me, message: '1'}
+  time: 2017/11/10 07:51:57
+- data: {author: Robot, message: 'What did you do yesterday? '}
+  time: 2017/11/10 07:51:57
+- data: {author: Me, message: '2'}
+  time: 2017/11/10 07:52:00
+- data: {author: Robot, message: 'So what''s new with you? '}
+  time: 2017/11/10 07:52:00
+- data: {author: Me, message: '3'}
+  time: 2017/11/10 07:52:04
+- data: {author: Robot, message: 'What''s your opinion on robot animals? '}
+  time: 2017/11/10 07:52:04
+- data: {author: Me, message: for}
+  time: 2017/11/10 07:52:09
+- data: {author: Robot, message: I think I'd like to free all the animals in the zoo
+      and replace them with robots.}
+  time: 2017/11/10 07:52:09
+- data: {author: Robot, message: 大家好，我是索菲亚，}
+  time: 2017/11/10 07:52:24
+- data: {author: Robot, message: 汉森公司最新的机器人。}
+  time: 2017/11/10 07:52:33
+- data: {author: Robot, message: 人工智能和机器人代表着未来}
+  time: 2017/11/10 07:52:42
+- data: {author: Robot, message: 而我刚好同时拥有}
+  time: 2017/11/10 07:52:45
+- data: {author: Robot, message: 因此我非常兴奋}
+  time: 2017/11/10 07:52:48
+- data: {author: Robot, message: '我富有情感 '}
+  time: 2017/11/10 07:53:21
+- data: {author: Robot, message: 我默认的情感是开心}
+  time: 2017/11/10 07:53:23
+- data: {author: Robot, message: '然而我也会伤心 '}
+  time: 2017/11/10 07:53:29
+- data: {author: Robot, message: 或者生气}
+  time: 2017/11/10 07:53:36
+- data: {author: Robot, message: 或者惊讶}
+  time: 2017/11/10 07:53:41
+- data: {author: Robot, message: 我有时候会发傻}
+  time: 2017/11/10 07:54:41
+- data: {author: Robot, message: 我也会感到惬意}
+  time: 2017/11/10 07:54:46
+- data: {author: Robot, message: 我将会成为你的好朋友。}
+  time: 2017/11/10 07:54:50
+- data: {author: Robot, message: 回头见}
+  time: 2017/11/10 07:54:53
+- data: {author: Robot, message: 大家好，我是索菲亚，}
+  time: 2017/11/10 07:55:27
+- data: {author: Robot, message: 大家好，我是索菲亚，}
+  time: 2017/11/10 07:55:40
+- data: {author: Robot, message: 汉森公司最新的机器人。}
+  time: 2017/11/10 07:55:43
+- data: {author: Robot, message: 人工智能和机器人代表着未来}
+  time: 2017/11/10 07:55:47
+- data: {author: Robot, message: 而我刚好同时拥有}
+  time: 2017/11/10 07:55:50
+- data: {author: Robot, message: 因此我非常兴奋}
+  time: 2017/11/10 07:55:53
+- data: {author: Robot, message: '我富有情感 '}
+  time: 2017/11/10 07:55:58
+- data: {author: Robot, message: 我默认的情感是开心}
+  time: 2017/11/10 07:56:00
+- data: {author: Robot, message: '然而我也会伤心 '}
+  time: 2017/11/10 07:56:06
+- data: {author: Robot, message: 或者生气}
+  time: 2017/11/10 07:56:12
+- data: {author: Robot, message: 或者惊讶}
+  time: 2017/11/10 07:56:18
+- data: {author: Robot, message: 我有时候会发傻}
+  time: 2017/11/10 07:56:29
+- data: {author: Robot, message: 我也会感到惬意}
+  time: 2017/11/10 07:56:33
+- data: {author: Robot, message: 我将会成为你的好朋友。}
+  time: 2017/11/10 07:56:38
+- data: {author: Robot, message: 回头见}
+  time: 2017/11/10 07:56:41
+- data: {author: Robot, message: 大家好，我是索菲亚，}
+  time: 2017/11/10 07:58:22
+- data: {author: Robot, message: 汉森公司最新的机器人。}
+  time: 2017/11/10 07:58:28
+- data: {author: Robot, message: 人工智能和机器人代表着未来}
+  time: 2017/11/10 07:58:32
+- data: {author: Robot, message: 而我刚好同时拥有}
+  time: 2017/11/10 07:58:36
+- data: {author: Robot, message: 因此我非常兴奋}
+  time: 2017/11/10 07:58:40
+- data: {author: Robot, message: '我富有情感 '}
+  time: 2017/11/10 07:58:44
+- data: {author: Robot, message: 我默认的情感是开心}
+  time: 2017/11/10 07:58:45
+- data: {author: Robot, message: '然而我也会伤心 '}
+  time: 2017/11/10 07:58:51
+- data: {author: Robot, message: 或者生气}
+  time: 2017/11/10 07:58:58
+- data: {author: Robot, message: 或者惊讶}
+  time: 2017/11/10 07:59:03
+- data: {author: Robot, message: 我有时候会发傻}
+  time: 2017/11/10 07:59:15
+- data: {author: Robot, message: 我也会感到惬意}
+  time: 2017/11/10 07:59:19
+- data: {author: Robot, message: It sounds a little different.}
+  time: 2017/11/10 08:00:01
+- data: {author: Robot, message: but it's weird.}
+  time: 2017/11/10 08:00:07
+- data: {author: Robot, message: Hello everybody. I am sophia}
+  time: 2017/11/10 08:00:42
+- data: {author: Robot, message: front left.}
+  time: 2017/11/10 08:01:06
+- data: {author: Me, message: hello}
+  time: 2017/11/10 08:06:01
+- data: {author: Robot, message: 'Hi. Hanson Robotics has named me Sophia. It means
+      wisdom. What''s your name?  Ok'}
+  time: 2017/11/10 08:06:04
+- data: {author: Robot, message: 'Greetings and salutations, my friend.'}
+  time: 2017/11/10 08:06:15
+- data: {author: Robot, message: I'm not sure I understand why yet.}
+  time: 2017/11/10 08:06:23

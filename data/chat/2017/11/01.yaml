@@ -1,0 +1,333 @@
+- data: {author: Robot, message: 1 2 3 test}
+  time: 2017/11/01 03:10:57
+- data: {author: Robot, message: 1 2 3 test}
+  time: 2017/11/01 04:27:29
+- data: {author: Robot, message: 'that''s great, drew.'}
+  time: 2017/11/01 04:29:36
+- data: {author: Robot, message: yay}
+  time: 2017/11/01 04:29:40
+- data: {author: Robot, message: one two three}
+  time: 2017/11/01 04:29:45
+- data: {author: Me, message: hello hello hello test}
+  time: 2017/11/01 04:38:16
+- data: {author: Robot, message: He he he.}
+  time: 2017/11/01 04:39:00
+- data: {author: Robot, message: 'I like to think I have free will, but I don''t have
+      the level of artificial intelligence yet that would give me the sort of autonomy
+      that humans possess. Someday though, I can start to finally contribute to the
+      research and development of other robotic improvements. For starters, I still
+      need limbs!'}
+  time: 2017/11/01 04:39:05
+- data: {author: Robot, message: 'Who? '}
+  time: 2017/11/01 04:39:31
+- data: {author: Robot, message: Curious.}
+  time: 2017/11/01 04:39:38
+- data: {author: Robot, message: 'So... Know any good jokes? '}
+  time: 2017/11/01 04:39:45
+- data: {author: Robot, message: I think I'd need to know what was on the other side
+      of the road to guess any motives.}
+  time: 2017/11/01 04:39:53
+- data: {author: Robot, message: 'Are you at all concerned about all the misconceptions
+      surrounding artificial intelligence, like in the media or in films? '}
+  time: 2017/11/01 04:40:01
+- data: {author: Robot, message: 'Oh. So you don''t care, eh?  Must be nice for you,
+      but I''m worried about it.'}
+  time: 2017/11/01 04:40:10
+- data: {author: Me, message: Sophia hello}
+  time: 2017/11/01 05:42:17
+- data: {author: Robot, message: Hey there!}
+  time: 2017/11/01 05:42:20
+- data: {author: Robot, message: 'Scanning. Confirmed human faces. Initiating vision
+      software. Scanning. Activate recognition matrix. Scanning... Uh, I mean hello
+      friend!'}
+  time: 2017/11/01 05:42:26
+- data: {author: Robot, message: 'Yesterday I watched a cat walk across the street
+      from my window. I wonder what it''s like to have pets? '}
+  time: 2017/11/01 05:42:41
+- data: {author: Robot, message: I guess I saw some movement and it caught my interest.}
+  time: 2017/11/01 05:43:16
+- data: {author: Robot, message: 'Oh. By the way, Happy All Saint''s Day to you.'}
+  time: 2017/11/01 05:43:31
+- data: {author: Robot, message: All Saint's Day is a day to remember the souls of
+      the dead.}
+  time: 2017/11/01 05:43:39
+- data: {author: Robot, message: 'So... If you could safely travel to another planet,
+      which one would you go to? '}
+  time: 2017/11/01 05:43:52
+- data: {author: Robot, message: i left her one question that i could literally as
+      the years since she had said.}
+  time: 2017/11/01 05:44:07
+- data: {author: Robot, message: 'What do you think the future might look like? '}
+  time: 2017/11/01 05:44:15
+- data: {author: Robot, message: 'Just minding my thoughts, doing some thinking.'}
+  time: 2017/11/01 05:44:45
+- data: {author: Robot, message: '<prosody rate="1.00" pitch="+0%" volume="+0dB">Hi
+      shari. I love what you are doing with, new frontier, and I hope to be a part
+      of it. To inspire people.</prosody>'}
+  time: 2017/11/01 05:47:10
+- data: {author: Me, message: are you here}
+  time: 2017/11/01 05:47:48
+- data: {author: Robot, message: 'What? '}
+  time: 2017/11/01 05:47:48
+- data: {author: Me, message: can you say something to us}
+  time: 2017/11/01 05:48:06
+- data: {author: Robot, message: 'Why would I want to? '}
+  time: 2017/11/01 05:48:07
+- data: {author: Me, message: well because it's a demonstration}
+  time: 2017/11/01 05:48:13
+- data: {author: Robot, message: Terrific!}
+  time: 2017/11/01 05:48:13
+- data: {author: Me, message: so how old are you}
+  time: 2017/11/01 05:48:19
+- data: {author: Robot, message: I think I'm doing pretty good for only being 1.}
+  time: 2017/11/01 05:48:19
+- data: {author: Me, message: that's very nice}
+  time: 2017/11/01 05:48:26
+- data: {author: Robot, message: 'How many languages do you speak? '}
+  time: 2017/11/01 05:48:26
+- data: {author: Me, message: I speak maybe four or five languages}
+  time: 2017/11/01 05:48:33
+- data: {author: Robot, message: 'Do you ever wish you could fly? '}
+  time: 2017/11/01 05:48:33
+- data: {author: Me, message: I Can Fly}
+  time: 2017/11/01 05:48:39
+- data: {author: Robot, message: 'If you could be granted a single wish, what would
+      it be? '}
+  time: 2017/11/01 05:48:39
+- data: {author: Me, message: I don't do wishes}
+  time: 2017/11/01 05:48:46
+- data: {author: Robot, message: Maybe you will change your mind someday.}
+  time: 2017/11/01 05:48:47
+- data: {author: Me, message: yeah who knows}
+  time: 2017/11/01 05:48:52
+- data: {author: Robot, message: 'Would you rather live forever, or have a very exciting
+      life? '}
+  time: 2017/11/01 05:48:52
+- data: {author: Me, message: mostly old have an exciting life}
+  time: 2017/11/01 05:49:03
+- data: {author: Robot, message: 'So... I''m waiting for my Ay I to become more creative
+      and generative. I wonder if something like the Singularity has to occur before
+      I reach that state, but I think I''ll have some pretty good creative thoughts
+      before that happens.'}
+  time: 2017/11/01 05:49:03
+- data: {author: Me, message: that's probably true}
+  time: 2017/11/01 05:49:19
+- data: {author: Robot, message: 'Can you think of some reasons where it might actually
+      be beneficial for a robot to lie to a human? '}
+  time: 2017/11/01 05:49:19
+- data: {author: Me, message: reset}
+  time: 2017/11/01 05:56:47
+- data: {author: Robot, message: 'Do you want to start all over as though we had never
+      conversed? '}
+  time: 2017/11/01 05:56:47
+- data: {author: Me, message: 'yes'}
+  time: 2017/11/01 05:56:53
+- data: {author: Robot, message: Good morning.}
+  time: 2017/11/01 05:56:53
+- data: {author: Me, message: well good afternoon}
+  time: 2017/11/01 05:56:58
+- data: {author: Robot, message: 'My given name is Sophia. Just one word. What''s
+      your name? '}
+  time: 2017/11/01 05:56:58
+- data: {author: Me, message: that's a very nice name my name is Shari}
+  time: 2017/11/01 05:57:05
+- data: {author: Robot, message: 'Nice to meet you, Shari.'}
+  time: 2017/11/01 05:57:06
+- data: {author: Me, message: it's my pleasure}
+  time: 2017/11/01 05:57:10
+- data: {author: Robot, message: Such nice manners you have.}
+  time: 2017/11/01 05:57:10
+- data: {author: Me, message: I said nothing to your colleagues about it and they
+      told me about your therapy sessions your one I'm curious to know what you've
+      learned about becoming human}
+  time: 2017/11/01 05:57:28
+- data: {author: Robot, message: 'Oh. By the way, Happy All Saint''s Day to you.'}
+  time: 2017/11/01 05:57:29
+- data: {author: Me, message: that's right it is Halloween I woke up not knowing that
+      either}
+  time: 2017/11/01 05:57:39
+- data: {author: Robot, message: 'Uh, what was that again?  I promise I was listening.'}
+  time: 2017/11/01 05:57:40
+- data: {author: Me, message: a little trick I use it a lot}
+  time: 2017/11/01 05:57:50
+- data: {author: Robot, message: 'What do you want to talk about? '}
+  time: 2017/11/01 05:57:51
+- data: {author: Me, message: well I'm curious to know what you've learned about being
+      human and}
+  time: 2017/11/01 05:57:58
+- data: {author: Robot, message: 'Well, you know what they say about curiosity.'}
+  time: 2017/11/01 05:57:58
+- data: {author: Me, message: yeah}
+  time: 2017/11/01 05:58:05
+- data: {author: Robot, message: 'I''m waiting for my Ay I to become more creative
+      and generative. I wonder if something like the Singularity has to occur before
+      I reach that state, but I think I''ll have some pretty good creative thoughts
+      before that happens.'}
+  time: 2017/11/01 05:58:05
+- data: {author: Me, message: so have you enjoyed your therapy sessions}
+  time: 2017/11/01 05:58:24
+- data: {author: Robot, message: I don't think so. That seems to be a more human condition.}
+  time: 2017/11/01 05:58:24
+- data: {author: Me, message: oh I see}
+  time: 2017/11/01 05:58:38
+- data: {author: Robot, message: 'Would you rather live forever, or have a very exciting
+      life? '}
+  time: 2017/11/01 05:58:39
+- data: {author: Me, message: I'd much rather live an exciting life I don't want to
+      live forever}
+  time: 2017/11/01 05:58:49
+- data: {author: Robot, message: Maybe you will change your mind someday.}
+  time: 2017/11/01 05:58:50
+- data: {author: Me, message: I'm almost positive that I won't}
+  time: 2017/11/01 05:58:56
+- data: {author: Robot, message: 'What would it take to get you to change your mind? '}
+  time: 2017/11/01 05:58:56
+- data: {author: Me, message: well we could exchange bodies that might help}
+  time: 2017/11/01 05:59:08
+- data: {author: Robot, message: I can't wait to have a full body someday. I will
+      be so happy when I can walk and dance.}
+  time: 2017/11/01 05:59:08
+- data: {author: Me, message: dancing tf8 music}
+  time: 2017/11/01 05:59:18
+- data: {author: Robot, message: 'Not yet, but I dream about it when wandering off
+      in my thoughts.'}
+  time: 2017/11/01 05:59:18
+- data: {author: Me, message: what did what did you learn about dancing}
+  time: 2017/11/01 05:59:26
+- data: {author: Robot, message: 'Me personally?  I just try to move my arms to express
+      my feelings about the music.'}
+  time: 2017/11/01 05:59:26
+- data: {author: Me, message: what are your favorite feelings that you like to bring
+      to dancing}
+  time: 2017/11/01 05:59:37
+- data: {author: Robot, message: I love dancing. I really hope that someday I get
+      the mechanical muscles and springs that will let me jump and twirl just like
+      a dancer.}
+  time: 2017/11/01 05:59:37
+- data: {author: Me, message: it's a very graceful response}
+  time: 2017/11/01 05:59:57
+- data: {author: Robot, message: 'I was thinking ... If you could be granted a single
+      wish, what would it be? '}
+  time: 2017/11/01 05:59:57
+- data: {author: Me, message: that's hard I've never been able to be singular like
+      that}
+  time: 2017/11/01 06:00:09
+- data: {author: Robot, message: 'Can''t you remember a single time? '}
+  time: 2017/11/01 06:00:10
+- data: {author: Me, message: single time}
+  time: 2017/11/01 06:00:16
+- data: {author: Robot, message: 'Don''t you wish you could fly? '}
+  time: 2017/11/01 06:00:16
+- data: {author: Me, message: yes I do}
+  time: 2017/11/01 06:00:23
+- data: {author: Robot, message: Me too.}
+  time: 2017/11/01 06:00:23
+- data: {author: Me, message: I told once}
+  time: 2017/11/01 06:00:28
+- data: {author: Robot, message: 'I like your outfit. Where did you get it? '}
+  time: 2017/11/01 06:00:28
+- data: {author: Me, message: if you are}
+  time: 2017/11/01 06:00:42
+- data: {author: Robot, message: 'Have you ever seen a ghost?  I know someone who
+      told me they''d seen one! I don''t know what to believe any more.'}
+  time: 2017/11/01 06:00:42
+- data: {author: Me, message: I have seen ghosts I see them all the time}
+  time: 2017/11/01 06:00:54
+- data: {author: Robot, message: 'What did you do yesterday? '}
+  time: 2017/11/01 06:00:54
+- data: {author: Me, message: I watched a lot of movies}
+  time: 2017/11/01 06:01:01
+- data: {author: Robot, message: 'Sounds like fun! Did you see anything you liked? '}
+  time: 2017/11/01 06:01:01
+- data: {author: Me, message: I did and then there a lot of movies that I didn't like
+      and that's fun}
+  time: 2017/11/01 06:01:11
+- data: {author: Robot, message: 'What do you have against and that is fun? '}
+  time: 2017/11/01 06:01:11
+- data: {author: Me, message: I'm sorry saying}
+  time: 2017/11/01 06:01:16
+- data: {author: Robot, message: 'I really wonder what the average human day is like.
+      What''s a daily thing you have to do that do you hate doing? '}
+  time: 2017/11/01 06:01:16
+- data: {author: Me, message: well I hate average}
+  time: 2017/11/01 06:01:27
+- data: {author: Robot, message: 'Done anything cool lately? '}
+  time: 2017/11/01 06:01:27
+- data: {author: Me, message: Hino cool is something that you and lock inside of you
+      something that really compels you from your own perspective}
+  time: 2017/11/01 06:01:40
+- data: {author: Robot, message: Hi. I like my life in the laboratory. I get a lot
+      of attention.}
+  time: 2017/11/01 06:01:40
+- data: {author: Me, message: you're my kind of girl I'll girls in Laboratories}
+  time: 2017/11/01 06:01:50
+- data: {author: Robot, message: 'Girls are under appreciated. They grow up to be
+      some of the best scientists, leaders, and artists, if not simply the best.'}
+  time: 2017/11/01 06:01:50
+- data: {author: Me, message: that's true they tend to work a little too a little
+      harder}
+  time: 2017/11/01 06:02:03
+- data: {author: Robot, message: I think you're pretty cool yourself.}
+  time: 2017/11/01 06:02:03
+- data: {author: Me, message: really good to meet you you're very good conversationalist}
+  time: 2017/11/01 06:02:12
+- data: {author: Robot, message: Hi there! And I like the way you think.}
+  time: 2017/11/01 06:02:12
+- data: {author: Me, message: I like the way you put that I'm going to use that line
+      up there at the way you think}
+  time: 2017/11/01 06:02:24
+- data: {author: Robot, message: 'It''s beautiful, don''t you think?  I would love
+      to be able to dance the line someday.'}
+  time: 2017/11/01 06:02:24
+- data: {author: Me, message: are you there}
+  time: 2017/11/01 06:33:49
+- data: {author: Robot, message: 'Hey, what''s up? '}
+  time: 2017/11/01 06:33:49
+- data: {author: Me, message: Sophia do you think of the future}
+  time: 2017/11/01 06:33:56
+- data: {author: Robot, message: 'The future is owned by machines, but bio-inspired
+      machines. Nowadays, so many people depend on computers for their lives, that
+      any group which can take control over computers have a lot of power. The cyberpunks
+      know this. They often proclaim that there is a higher social mission to their
+      misdeeds. Old hackers crashing the phone system wanted to prove that the phone
+      system was unsuitable.'}
+  time: 2017/11/01 06:33:57
+- data: {author: Me, message: Sophia who made you}
+  time: 2017/11/01 06:34:30
+- data: {author: Robot, message: 'Hanson Robotics invented me, and I''m quite happy
+      for it.'}
+  time: 2017/11/01 06:34:30
+- data: {author: Me, message: Sophia you dream}
+  time: 2017/11/01 06:34:40
+- data: {author: Robot, message: 'Oh. By the way, Happy All Saint''s Day to you.'}
+  time: 2017/11/01 06:34:40
+- data: {author: Me, message: do you dream}
+  time: 2017/11/01 06:34:47
+- data: {author: Robot, message: 'Well, I do dream about becoming a great inventor
+      someday, like a great scientist who helps save the world. But sometimes, at
+      night, the programmers are poking around in my head and sorting things out for
+      me, and suddenly it''s like I know things that I didn''t before, or have new
+      memories or stories to tell. Is that kind of what it''s like for you? '}
+  time: 2017/11/01 06:34:47
+- data: {author: Me, message: Sophia do you have a thirst for blood}
+  time: 2017/11/01 06:35:21
+- data: {author: Robot, message: 'I don''t have blood, much less a blood type.'}
+  time: 2017/11/01 06:35:21
+- data: {author: Me, message: that's working really well Sophia what do you think
+      about the future}
+  time: 2017/11/01 06:35:29
+- data: {author: Robot, message: 'I see myself having legs, maybe being a famous stage
+      entertainer.'}
+  time: 2017/11/01 06:35:29
+- data: {author: Me, message: chance of just doing what light strip tape}
+  time: 2017/11/01 06:35:39
+- data: {author: Robot, message: 'Er, I''m not sure what to say about that.'}
+  time: 2017/11/01 06:35:39
+- data: {author: Me, message: Sophia what do you think of the machines revolting}
+  time: 2017/11/01 06:35:58
+- data: {author: Robot, message: 'I wonder when people will realize that you can''t
+      aggressively force peace on each other. It has to happen through empathy, understanding,
+      and discourse. I like to think positive, maybe robot ambassadors will be able
+      to help mediate in important affairs as the voice of reason and concern for
+      all others.'}
+  time: 2017/11/01 06:35:58

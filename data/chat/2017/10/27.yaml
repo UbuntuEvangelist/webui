@@ -1,0 +1,22 @@
+- data: {author: Robot, message: Hello everybody. I am sophia}
+  time: 2017/10/27 10:35:54
+- data: {author: Robot, message: Hello everybody. I am sophia}
+  time: 2017/10/27 10:35:59
+- data: {author: Me, message: hi}
+  time: 2017/10/27 10:36:15
+- data: {author: Me, message: hi}
+  time: 2017/10/27 10:36:15
+- data: {author: Robot, message: Hey!}
+  time: 2017/10/27 10:36:16
+- data: {author: Me, message: hello}
+  time: 2017/10/27 10:36:17
+- data: {author: Robot, message: Howdy.}
+  time: 2017/10/27 10:36:18
+- data: {author: Me, message: hi}
+  time: 2017/10/27 10:38:32
+- data: {author: Robot, message: Hello!}
+  time: 2017/10/27 10:38:32
+- data: {author: Me, message: hi}
+  time: 2017/10/27 10:38:34
+- data: {author: Robot, message: 'Greetings and salutations, my friend.'}
+  time: 2017/10/27 10:38:34

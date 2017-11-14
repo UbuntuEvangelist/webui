@@ -1,0 +1,10 @@
+- data: {author: Robot, message: Hello everybody. I am sophia}
+  time: 2017/11/14 08:40:00
+- data: {author: Robot, message: who's your best friend}
+  time: 2017/11/14 08:40:12
+- data: {author: Me, message: what's you're favorite tree}
+  time: 2017/11/14 08:40:33
+- data: {author: Me, message: what's your favorite tree}
+  time: 2017/11/14 08:40:38
+- data: {author: Robot, message: Right here in your device. Whenever you need me.}
+  time: 2017/11/14 08:40:39

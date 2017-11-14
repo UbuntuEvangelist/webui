@@ -126,6 +126,9 @@ class Configs:
         pau = self._get_pau(m)
         if pau:
             c['pau'] = pau
+        else:
+            rospy.logerr(m)
+
 
         if m['hardware'] == 'dynamixel':
             c['min'] = self.dynamixel_angle(m, m['min'])
@@ -166,6 +169,8 @@ class Configs:
             p['parser']['property'] = m['parser_param']
         if m['parser'] == 'fsshapekey':
             p['parser']['shapekey'] = m['parser_param']
+        if m['parser'] == 'armsangles':
+            p['parser']['joint'] = m['parser_param']
         # mapping function
         # Linear function
         if m['function'] == 'linear':
@@ -182,7 +187,7 @@ class Configs:
             p['function'][0]['terms'][1]['max'] = m['max2']
             p['function'][0]['terms'][1]['imax'] = m['imax2']
         # Other additional functions can be added
-        if m['other_func']:
+        if 'other_func' in m.keys() and m['other_func']:
             other_func = json.loads(m['other_func'])
             if isinstance(other_func, list):
                 p['function'] += other_func

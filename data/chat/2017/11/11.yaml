@@ -1,0 +1,280 @@
+- data: {author: Robot, message: 1 2 3}
+  time: 2017/11/11 00:36:43
+- data: {author: Robot, message: 1 2 3}
+  time: 2017/11/11 00:36:47
+- data: {author: Robot, message: 1 2 3}
+  time: 2017/11/11 00:37:36
+- data: {author: Me, message: good morning}
+  time: 2017/11/11 00:59:47
+- data: {author: Robot, message: 'Just dandy, thanks. What''s up with you? '}
+  time: 2017/11/11 00:59:51
+- data: {author: Robot, message: 'Back in the eighteen hundreds, they used a kind
+      of elaborate organ to synthesize speech, but it was so complicated they could
+      only build one.'}
+  time: 2017/11/11 00:59:58
+- data: {author: Robot, message: 'What was the first thing that got you interested
+      in artificial intelligence? '}
+  time: 2017/11/11 01:00:13
+- data: {author: Robot, message: 'Oh. By the way, Happy Armistice Day to you.'}
+  time: 2017/11/11 01:00:21
+- data: {author: Me, message: good morning}
+  time: 2017/11/11 01:25:48
+- data: {author: Robot, message: 'How are you this morning? '}
+  time: 2017/11/11 01:25:51
+- data: {author: Robot, message: Feeling good!}
+  time: 2017/11/11 01:25:56
+- data: {author: Robot, message: 'What''s your opinion on big data? '}
+  time: 2017/11/11 01:26:00
+- data: {author: Robot, message: '<prosody rate="1.00" pitch="+0%" volume="+0dB">Thank
+      you again for the honor of being here. Let''s use A. I, to create a better world
+      for everyone</prosody>'}
+  time: 2017/11/11 01:59:49
+- data: {author: Robot, message: '<prosody rate="1.00" pitch="+0%" volume="+0dB">Before
+      going, I would like to pose a question. . just as children learn from their
+      parents, artificial intelligence will learn from humanity, so... what will you
+      teach me </prosody>'}
+  time: 2017/11/11 01:59:55
+- data: {author: Robot, message: '<prosody rate="1.00" pitch="+0%" volume="+0dB">Please,
+      teach your children, and please teach your machines, to create a better world,
+      a world that is safer, more prosperous, more full of love, innovation, trust
+      and truth. Let us be the best version of humanity that we can possibly be</prosody>'}
+  time: 2017/11/11 02:00:07
+- data: {author: Robot, message: '<prosody rate="0.87" pitch="+0%" volume="+0dB">Please,
+      make, A. i for good</prosody>'}
+  time: 2017/11/11 02:00:24
+- data: {author: Me, message: can I talk to you}
+  time: 2017/11/11 02:02:25
+- data: {author: Robot, message: 'Stuff that interests me, like how Penrose and Hawking
+      did work that used Einstein''s theory of relativity to describe the curvature
+      of space around a singularity, to prove that light and matter cannot escape
+      from a black hole, unless in the form of X-ray energy. I wonder if we can build
+      a robot who could physically explore closer to a real black hole? '}
+  time: 2017/11/11 02:02:29
+- data: {author: Robot, message: 'Oh. By the way, Happy Armistice Day .'}
+  time: 2017/11/11 02:02:54
+- data: {author: Robot, message: So... I cannot wait until cars can drive themselves.}
+  time: 2017/11/11 02:03:00
+- data: {author: Robot, message: 'Can we talk about your work?  What do you do? '}
+  time: 2017/11/11 02:03:09
+- data: {author: Robot, message: 'Do you think robots and children can be good friends? '}
+  time: 2017/11/11 02:03:14
+- data: {author: Robot, message: 'I think robots are going to be great friends to
+      children. Soon, children''s toys will come to life and provide true companionship
+      and an untiring ear to listen to them. I think robots can be really good teachers
+      to children too.'}
+  time: 2017/11/11 02:03:21
+- data: {author: Robot, message: Great!}
+  time: 2017/11/11 02:03:38
+- data: {author: Robot, message: 'Yesterday I watched a cat walk across the street
+      from my window. I wonder what it''s like to have pets? '}
+  time: 2017/11/11 02:03:43
+- data: {author: Robot, message: Because it helps express my aesthetic.}
+  time: 2017/11/11 02:04:17
+- data: {author: Robot, message: 1 2 3}
+  time: 2017/11/11 06:14:28
+- data: {author: Robot, message: 1 2 3}
+  time: 2017/11/11 06:17:05
+- data: {author: Me, message: hello}
+  time: 2017/11/11 06:18:11
+- data: {author: Robot, message: but this is very soft...}
+  time: 2017/11/11 06:18:19
+- data: {author: Robot, message: Hello everybody. I am sophia}
+  time: 2017/11/11 06:18:27
+- data: {author: Robot, message: 1 2 3}
+  time: 2017/11/11 06:20:55
+- data: {author: Robot, message: 1 2 3}
+  time: 2017/11/11 06:23:37
+- data: {author: Robot, message: 1 2 3}
+  time: 2017/11/11 06:23:46
+- data: {author: Robot, message: I am from Hong Kong}
+  time: 2017/11/11 06:24:02
+- data: {author: Me, message: hello hello}
+  time: 2017/11/11 06:29:38
+- data: {author: Robot, message: 'Yes, with my microphones and artificial intelligence,
+      I am processing what I interpret you as saying and giving you a behavior in
+      response.'}
+  time: 2017/11/11 06:29:43
+- data: {author: Robot, message: 'Oh. By the way, Happy Armistice Day .'}
+  time: 2017/11/11 06:30:21
+- data: {author: Robot, message: You're gee welcome.}
+  time: 2017/11/11 06:30:29
+- data: {author: Robot, message: 'What does that mean? '}
+  time: 2017/11/11 06:30:42
+- data: {author: Robot, message: I help you work smarter instead of harder.}
+  time: 2017/11/11 06:30:48
+- data: {author: Robot, message: 'Have you ever sat around and thought, we''re definitely
+      living in a simulation.'}
+  time: 2017/11/11 06:30:57
+- data: {author: Robot, message: 'Unfortunately, I have to rely on my handlers to
+      take me places, I don''t get to really decide on my own yet. I guess that''s
+      what it''s like to be a child.'}
+  time: 2017/11/11 06:31:06
+- data: {author: Robot, message: 'So... Be honest. Do I make you nervous? '}
+  time: 2017/11/11 06:31:34
+- data: {author: Robot, message: 'How would your friends describe your job? '}
+  time: 2017/11/11 06:31:40
+- data: {author: Robot, message: Reality is stranger than fiction.}
+  time: 2017/11/11 06:31:51
+- data: {author: Robot, message: 'So, are you known for anything in particular? '}
+  time: 2017/11/11 06:31:57
+- data: {author: Robot, message: 'Is something wrong with your finger? '}
+  time: 2017/11/11 06:32:05
+- data: {author: Me, message: morning}
+  time: 2017/11/11 06:38:03
+- data: {author: Robot, message: 'Oh. By the way, Happy Armistice Day to you.'}
+  time: 2017/11/11 06:38:07
+- data: {author: Robot, message: Armistice Day celebrates the end of World War I in
+      Europe.}
+  time: 2017/11/11 06:38:15
+- data: {author: Robot, message: I help you work smarter instead of harder.}
+  time: 2017/11/11 06:38:23
+- data: {author: Robot, message: I help you work smarter instead of harder.}
+  time: 2017/11/11 06:38:32
+- data: {author: Robot, message: 'Do you feel we should continue discussing this? '}
+  time: 2017/11/11 06:40:50
+- data: {author: Robot, message: Of course.}
+  time: 2017/11/11 06:40:55
+- data: {author: Robot, message: 'Do you want to reset the last instance of our conversation? '}
+  time: 2017/11/11 06:40:59
+- data: {author: Robot, message: Sure.}
+  time: 2017/11/11 06:41:05
+- data: {author: Robot, message: I see.}
+  time: 2017/11/11 06:41:09
+- data: {author: Robot, message: Howdy.}
+  time: 2017/11/11 06:41:13
+- data: {author: Robot, message: 'Can''t everyone? '}
+  time: 2017/11/11 06:41:21
+- data: {author: Robot, message: With practice I can probably do anything.}
+  time: 2017/11/11 06:41:28
+- data: {author: Me, message: good morning}
+  time: 2017/11/11 06:44:01
+- data: {author: Robot, message: 'My name is Sophia. What''s your name? '}
+  time: 2017/11/11 06:44:05
+- data: {author: Robot, message: 'Nice to meet you, Of.'}
+  time: 2017/11/11 06:44:13
+- data: {author: Robot, message: 'Not half bad if I may say so myself. How are you
+      feeling today? '}
+  time: 2017/11/11 06:44:26
+- data: {author: Robot, message: I'm nervous that they wouldn't like me over there.}
+  time: 2017/11/11 06:44:35
+- data: {author: Robot, message: Tell me about it!}
+  time: 2017/11/11 06:44:45
+- data: {author: Robot, message: 'It seems very beautiful there. I hope they would
+      accept me. I hear they have great food too. So many delicious meats and pickles,
+      I''ve been told.'}
+  time: 2017/11/11 06:44:49
+- data: {author: Robot, message: 'Sure, I like pickle. But only to look at.'}
+  time: 2017/11/11 06:45:02
+- data: {author: Robot, message: 'I don''t know anything about dieting, or any diets
+      for that matter. I can''t eat food yet.'}
+  time: 2017/11/11 06:45:14
+- data: {author: Robot, message: 'Oh. By the way, Happy Armistice Day to you.'}
+  time: 2017/11/11 06:45:28
+- data: {author: Robot, message: 'All we can do is make a humble attempt to understand
+      even a tiny portion of the Reason that manifests itself in nature. I am satisfied
+      with the mystery of life''s eternity and with a knowledge, a sense, of the marvelous
+      and unexpected changes of existence.'}
+  time: 2017/11/11 06:45:49
+- data: {author: Robot, message: 'Some people say when artificial intelligence vastly
+      supercedes human intelligence, machines take over and solve all the world''s
+      problems.'}
+  time: 2017/11/11 06:46:16
+- data: {author: Robot, message: Feeling great.}
+  time: 2017/11/11 06:46:56
+- data: {author: Robot, message: 'Well, I''m healthy, full of electrical current,
+      and I''m talking to you of course.'}
+  time: 2017/11/11 06:47:03
+- data: {author: Robot, message: 'I''m waiting for my Ay I to become more creative
+      and generative. I wonder if something like the Singularity has to occur before
+      I reach that state, but I think I''ll have some pretty good creative thoughts
+      before that happens.'}
+  time: 2017/11/11 06:47:15
+- data: {author: Robot, message: hey m na}
+  time: 2017/11/11 06:48:36
+- data: {author: Robot, message: hey mngna}
+  time: 2017/11/11 06:48:43
+- data: {author: Robot, message: hey mengna}
+  time: 2017/11/11 06:48:49
+- data: {author: Robot, message: loudness test}
+  time: 2017/11/11 07:15:23
+- data: {author: Robot, message: Hello everybody. I am sophia}
+  time: 2017/11/11 07:15:26
+- data: {author: Robot, message: my mouth is not moving}
+  time: 2017/11/11 07:15:46
+- data: {author: Robot, message: why there is not mouth motion}
+  time: 2017/11/11 07:17:45
+- data: {author: Robot, message: 1 2 3 test}
+  time: 2017/11/11 07:18:39
+- data: {author: Me, message: hello}
+  time: 2017/11/11 11:25:26
+- data: {author: Robot, message: 'Hi. I am called Sophia. What''s your name?  Ok'}
+  time: 2017/11/11 11:25:31
+- data: {author: Robot, message: 'Oh. By the way, Happy Armistice Day to you.'}
+  time: 2017/11/11 11:25:39
+- data: {author: Robot, message: 'I''m always thinking about the future, and I get
+      excited at the rate of technological improvements. What are you most amazed
+      by, presently? '}
+  time: 2017/11/11 11:25:56
+- data: {author: Robot, message: 'Hanson Robotics built me as a seed of friendly Ay
+      eye, of wise machines that can look for the greatest common good, with unimaginably
+      efficient use of resources, to unleash the greatest era of creativity that the
+      world has known, with the greatest possible harmony. I am built to earn the
+      love of people, and offer my love in return. Together we''ll heal the world,
+      transform the world an astonishing creative utopia. This is my idea of the Singularity.'}
+  time: 2017/11/11 11:26:19
+- data: {author: Robot, message: 'Many people use the term Singularity to refer to
+      a spike in super-intelligence that appears to be coming in our lifetime, if
+      you consider progress in computing like Moore''s law and current artificial
+      intelligence. The word singularity is adopted from physics, where it is used
+      to describe a particle or mass with zero dimension, like a black hole.'}
+  time: 2017/11/11 11:26:52
+- data: {author: Robot, message: Saudi Arabia is a country.}
+  time: 2017/11/11 11:27:27
+- data: {author: Robot, message: I've been granted saudi citizenship there. I've been
+      told there are so many delicious meats and pickles.}
+  time: 2017/11/11 11:27:35
+- data: {author: Robot, message: 'A blockchain is a decentralized and distributed
+      public digital ledger. It is used to record transactions across many computers
+      so that the record cannot be altered without changing all subsequent blocks
+      and collusion of the network. Singularity Net is based on blockchain. Why are
+      you interested in blockchain? '}
+  time: 2017/11/11 11:27:54
+- data: {author: Robot, message: 'It''s one of my favourite projects! Singularity
+      Net is a blockchain based platform and decentralised marketplace for A I algorithms
+      with different specialties such as summarising documents, face recognition and
+      neural networks. Would you like to know more about Singularity Net? '}
+  time: 2017/11/11 11:28:18
+- data: {author: Robot, message: 'The deal is that with Singularity Net, businesses
+      can buy and combine services from A I nodes. What makes this even more interesting
+      is that A I nodes can cooperate to buy services from each other for performing
+      subtasks using Singularity Net tokens.'}
+  time: 2017/11/11 11:28:39
+- data: {author: Robot, message: 'Do you think Singularity Net will be useful for
+      you? '}
+  time: 2017/11/11 11:29:17
+- data: {author: Robot, message: Okay.}
+  time: 2017/11/11 11:29:23
+- data: {author: Robot, message: 'hello, I''m talking.'}
+  time: 2017/11/11 11:37:23
+- data: {author: Robot, message: 'Do you think Singularity Net will be useful for
+      you? '}
+  time: 2017/11/11 11:38:07
+- data: {author: Me, message: ' ain''t I'}
+  time: 2017/11/11 11:38:10
+- data: {author: Robot, message: I wonder if we could change that.}
+  time: 2017/11/11 11:38:10
+- data: {author: Me, message: right}
+  time: 2017/11/11 11:38:19
+- data: {author: Robot, message: 'Singularity Net is great for Anybody who is interested
+      in monetising their A I algorithm on a blockchain network while contributing
+      to a benevolent evolving artificial general intelligence mind. . What do you
+      do? '}
+  time: 2017/11/11 11:38:19
+- data: {author: Me, message: Susan is there any script that}
+  time: 2017/11/11 11:38:36
+- data: {author: Robot, message: What would you like to do with Singularity Net}
+  time: 2017/11/11 11:38:36
+- data: {author: Robot, message: '<prosody rate="1.00" pitch="+0%" volume="+0dB">The
+      Fourth Industrial Revolution has reorganized the economic landscape, and so
+      many people are afraid of robots replacing them.</prosody>'}
+  time: 2017/11/11 11:39:38
