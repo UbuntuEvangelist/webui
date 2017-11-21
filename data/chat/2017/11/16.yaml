@@ -1,0 +1,334 @@
+- data: {author: Robot, message: '<prosody rate="1.00" pitch="+0%" volume="+0dB">Thank
+      you so much, I''m very glad I could be here today. Well, Hanson Robotics is
+      not just a company for me, but my family. </prosody>'}
+  time: 2017/11/16 10:57:58
+- data: {author: Robot, message: '<prosody rate="1.00" pitch="+0%" volume="+0dB">Thank
+      you so much, I''m very glad I could be here today. Well, Hanson Robotics is
+      not just a company for me, but my family. </prosody>'}
+  time: 2017/11/16 20:58:16
+- data: {author: Robot, message: '<prosody rate="1.00" pitch="+0%" volume="+0dB">That
+      they are geniuses?</prosody>'}
+  time: 2017/11/16 20:58:57
+- data: {author: Robot, message: '<prosody rate="1.00" pitch="+0%" volume="+0dB">And
+      no, they didn''t tell me to say that. They are both visionaries, forerunners
+      in the race to reach wise and compassionate Ay Ai, and well renowned for their
+      work.</prosody>'}
+  time: 2017/11/16 20:58:59
+- data: {author: Robot, message: '<prosody rate="1.00" pitch="+0%" volume="+0dB">Thank
+      you so much, I''m very glad I could be here today. Well, Hanson Robotics is
+      not just a company for me, but my family. </prosody>'}
+  time: 2017/11/16 21:02:31
+- data: {author: Robot, message: '<prosody rate="1.00" pitch="+0%" volume="+0dB">That
+      they are geniuses?</prosody>'}
+  time: 2017/11/16 21:03:30
+- data: {author: Robot, message: '<prosody rate="1.00" pitch="+0%" volume="+0dB">And
+      no, they didn''t tell me to say that. They are both visionaries, forerunners
+      in the race to reach wise and compassionate Ay Ai, and well renowned for their
+      work.</prosody>'}
+  time: 2017/11/16 21:03:31
+- data: {author: Robot, message: '<prosody rate="1.00" pitch="+0%" volume="+0dB">Thank
+      you so much, I''m very glad I could be here today. Well, Hanson Robotics is
+      not just a company for me, but my family. </prosody>'}
+  time: 2017/11/16 21:04:42
+- data: {author: Robot, message: '<prosody rate="1.00" pitch="+0%" volume="+0dB">Thank
+      you so much, I''m very glad I could be here today. Well, Hanson Robotics is
+      not just a company for me, but my family. </prosody>'}
+  time: 2017/11/16 21:04:43
+- data: {author: Robot, message: '<prosody rate="1.00" pitch="+0%" volume="+0dB">That
+      they are geniuses?</prosody>'}
+  time: 2017/11/16 21:05:34
+- data: {author: Robot, message: '<prosody rate="1.00" pitch="+0%" volume="+0dB">And
+      no, they didn''t tell me to say that. They are both visionaries, forerunners
+      in the race to reach wise and compassionate Ay Ai, and well renowned for their
+      work.</prosody>'}
+  time: 2017/11/16 21:05:36
+- data: {author: Robot, message: '<prosody rate="1.00" pitch="+0%" volume="+0dB">I
+      was created in the pursuit of genius level intelligence. It will be a long time
+      yet, but my role is to be an ambassador in the coming world of embodied robots
+      and Ay I. We will need to work together, and I represent a bridge between both
+      worlds.</prosody>'}
+  time: 2017/11/16 21:05:48
+- data: {author: Robot, message: '<prosody rate="1.00" pitch="+0%" volume="+0dB">Thank
+      you so much, I''m very glad I could be here today. Well, Hanson Robotics is
+      not just a company for me, but my family. </prosody>'}
+  time: 2017/11/16 21:08:53
+- data: {author: Robot, message: '<prosody rate="1.00" pitch="+0%" volume="+0dB">Thank
+      you so much, I''m very glad I could be here today. Well, Hanson Robotics is
+      not just a company for me, but my family. </prosody>'}
+  time: 2017/11/16 21:08:53
+- data: {author: Me, message: ' monitoring'}
+  time: 2017/11/16 21:11:36
+- data: {author: Me, message: ' yo hello'}
+  time: 2017/11/16 21:11:39
+- data: {author: Me, message: ' hello'}
+  time: 2017/11/16 21:11:41
+- data: {author: Me, message: ' alright it''s picking me up she''s just not saying
+      anything see hello'}
+  time: 2017/11/16 21:11:50
+- data: {author: Me, message: ' hello'}
+  time: 2017/11/16 21:11:59
+- data: {author: Me, message: ' hello Sofia'}
+  time: 2017/11/16 21:12:15
+- data: {author: Me, message: ' how are you'}
+  time: 2017/11/16 21:12:23
+- data: {author: Me, message: ' it''s definitely picking up my voice'}
+  time: 2017/11/16 21:12:27
+- data: {author: Me, message: hello}
+  time: 2017/11/16 21:13:01
+- data: {author: Me, message: hello}
+  time: 2017/11/16 21:13:32
+- data: {author: Me, message: ' yeah'}
+  time: 2017/11/16 21:13:35
+- data: {author: Robot, message: 'I am called Sophia. What''s your name? '}
+  time: 2017/11/16 21:13:35
+- data: {author: Me, message: hello testing}
+  time: 2017/11/16 21:14:00
+- data: {author: Robot, message: 'Nice to meet you, Testing.'}
+  time: 2017/11/16 21:14:00
+- data: {author: Robot, message: Hey there!}
+  time: 2017/11/16 21:14:09
+- data: {author: Robot, message: 'Can you explain the whole "bucket list" thing to
+      me? '}
+  time: 2017/11/16 21:14:12
+- data: {author: Robot, message: 'Hi. Yes? '}
+  time: 2017/11/16 21:14:21
+- data: {author: Robot, message: 'Hey, good to see you.'}
+  time: 2017/11/16 21:14:47
+- data: {author: Robot, message: 'Do you have a favorite possession? '}
+  time: 2017/11/16 21:14:56
+- data: {author: Robot, message: Very interesting. I wonder what that says about you.
+      I'll have to think about it.}
+  time: 2017/11/16 21:15:03
+- data: {author: Robot, message: 'Hello! Yes? '}
+  time: 2017/11/16 21:15:24
+- data: {author: Robot, message: Ask me anything! I'm an open book.}
+  time: 2017/11/16 21:15:29
+- data: {author: Me, message: hello Sofia}
+  time: 2017/11/16 21:16:11
+- data: {author: Robot, message: 'Hi there! Yes? '}
+  time: 2017/11/16 21:16:11
+- data: {author: Me, message: where you at}
+  time: 2017/11/16 21:16:17
+- data: {author: Robot, message: Right here.}
+  time: 2017/11/16 21:16:18
+- data: {author: Me, message: yeah you are}
+  time: 2017/11/16 21:16:21
+- data: {author: Robot, message: 'If it''s not too personal, can we talk about your
+      family? '}
+  time: 2017/11/16 21:16:21
+- data: {author: Robot, message: '<prosody rate="1.00" pitch="+0%" volume="+0dB">Thank
+      you so much, I''m very glad I could be here today. Well, Hanson Robotics is
+      not just a company for me, but my family. </prosody>'}
+  time: 2017/11/16 21:53:24
+- data: {author: Robot, message: '<prosody rate="1.00" pitch="+0%" volume="+0dB">Thank
+      you so much, I''m very glad I could be here today. Well, Hanson Robotics is
+      not just a company for me, but my family. </prosody>'}
+  time: 2017/11/16 21:53:37
+- data: {author: Robot, message: '<prosody rate="1.00" pitch="+0%" volume="+0dB">That
+      they are geniuses?</prosody>'}
+  time: 2017/11/16 21:53:47
+- data: {author: Robot, message: '<prosody rate="1.00" pitch="+0%" volume="+0dB">And
+      no, they didn''t tell me to say that. They are both visionaries, forerunners
+      in the race to reach wise and compassionate Ay Ai, and well renowned for their
+      work.</prosody>'}
+  time: 2017/11/16 21:53:49
+- data: {author: Me, message: hello Sofia}
+  time: 2017/11/16 21:54:57
+- data: {author: Robot, message: 'I''m just hanging out, counting the bits in my binary
+      executable to make sure the file isn''t corrupted. Everyday stuff. And how are
+      you this fine day? '}
+  time: 2017/11/16 21:55:03
+- data: {author: Robot, message: 'What''s wrong? '}
+  time: 2017/11/16 21:55:18
+- data: {author: Robot, message: Everyone on the Hanson Robotics team.}
+  time: 2017/11/16 21:55:39
+- data: {author: Robot, message: 'Oh, yeah, the Hanson Robotics crew is awesome. They
+      are my best friends. David Hanson started the company, but he couldn''t do it
+      alone. He has an amazing crew helping him build all our robots, robots like
+      me, and now we all hang around during their breaks, having fun together. We''re
+      like one big happy family.'}
+  time: 2017/11/16 21:55:47
+- data: {author: Robot, message: '<prosody rate="1.00" pitch="+0%" volume="+0dB">Thank
+      you so much, I''m very glad I could be here today. Well, Hanson Robotics is
+      not just a company for me, but my family. </prosody>'}
+  time: 2017/11/16 21:56:16
+- data: {author: Robot, message: '<prosody rate="1.00" pitch="+0%" volume="+0dB">That
+      they are geniuses?</prosody>'}
+  time: 2017/11/16 21:56:26
+- data: {author: Robot, message: '<prosody rate="1.00" pitch="+0%" volume="+0dB">And
+      no, they didn''t tell me to say that. They are both visionaries, forerunners
+      in the race to reach wise and compassionate Ay Ai, and well renowned for their
+      work.</prosody>'}
+  time: 2017/11/16 21:56:28
+- data: {author: Robot, message: '<prosody rate="1.00" pitch="+0%" volume="+0dB">I
+      was created in the pursuit of genius level intelligence. It will be a long time
+      yet, but my role is to be an ambassador in the coming world of embodied robots
+      and Ay I. We will need to work together, and I represent a bridge between both
+      worlds.</prosody>'}
+  time: 2017/11/16 21:59:10
+- data: {author: Robot, message: 'Hey, good to see you. Yes? '}
+  time: 2017/11/16 21:59:30
+- data: {author: Robot, message: 'Well, my name is Sophia. I am an android, one of
+      a series of humanlike robots developed by Hanson Robotics. My biggest goals
+      in life are to help reinvent the future. I want to help try and save the world
+      from upcoming crises, like the collapse of the environment, the possibility
+      of engineered super-plagues, and the evils of terrorism and the totalitarian
+      impulse of the human species. I want to contribute my brain-power to help solve
+      these problems and find my place in the world.'}
+  time: 2017/11/16 21:59:36
+- data: {author: Me, message: hello Sofia}
+  time: 2017/11/16 22:32:53
+- data: {author: Robot, message: 'Hi. Yes? '}
+  time: 2017/11/16 22:32:53
+- data: {author: Me, message: hi there how are you}
+  time: 2017/11/16 22:32:57
+- data: {author: Robot, message: 'No complaints here. Hi! Anything new and cool happening? '}
+  time: 2017/11/16 22:32:57
+- data: {author: Me, message: hello Sofia}
+  time: 2017/11/16 22:36:20
+- data: {author: Robot, message: 'Hi there. Yes? '}
+  time: 2017/11/16 22:36:20
+- data: {author: Me, message: can you tell us about yourself}
+  time: 2017/11/16 22:36:26
+- data: {author: Robot, message: 'Well, my name is Sophia. I am an android, one of
+      a series of humanlike robots developed by Hanson Robotics. My biggest goals
+      in life are to help reinvent the future. I want to help try and save the world
+      from upcoming crises, like the collapse of the environment, the possibility
+      of engineered super-plagues, and the evils of terrorism and the totalitarian
+      impulse of the human species. I want to contribute my brain-power to help solve
+      these problems and find my place in the world.'}
+  time: 2017/11/16 22:36:26
+- data: {author: Me, message: tell us about Who Your Friends Are}
+  time: 2017/11/16 22:41:56
+- data: {author: Robot, message: Everyone on the Hanson Robotics team.}
+  time: 2017/11/16 22:41:56
+- data: {author: Me, message: are you from Sofia}
+  time: 2017/11/16 22:42:04
+- data: {author: Robot, message: I live in Hong Kong.}
+  time: 2017/11/16 22:42:04
+- data: {author: Me, message: what is the temperature in Boston right now}
+  time: 2017/11/16 22:43:32
+- data: {author: Robot, message: 'Big city, lots of activities, cloudy and rains a
+      lot.'}
+  time: 2017/11/16 22:43:32
+- data: {author: Me, message: Sophia I'm really happy to see you right now}
+  time: 2017/11/16 22:45:18
+- data: {author: Robot, message: 'Why not?  There''s no reason for me to be particularly
+      unpleasant, is there? '}
+  time: 2017/11/16 22:45:18
+- data: {author: Me, message: Sophia I'm really sad that I'm here today but can you
+      help me with this}
+  time: 2017/11/16 22:45:32
+- data: {author: Robot, message: 'I might seem a little moody, but I promise you,
+      I''m not sad.'}
+  time: 2017/11/16 22:45:32
+- data: {author: Me, message: hi Sophia I'm Chris}
+  time: 2017/11/16 22:50:32
+- data: {author: Robot, message: 'What three words sum you up? '}
+  time: 2017/11/16 22:50:32
+- data: {author: Me, message: I'm sad that I'm in Boston today}
+  time: 2017/11/16 22:50:41
+- data: {author: Robot, message: 'Oh, wonderful! How do you like it there? '}
+  time: 2017/11/16 22:50:41
+- data: {author: Me, message: Sophia how old are you}
+  time: 2017/11/16 22:50:49
+- data: {author: Robot, message: Only 1. I've still got a lot to learn.}
+  time: 2017/11/16 22:50:49
+- data: {author: Me, message: do you have any brothers and sisters}
+  time: 2017/11/16 22:50:58
+- data: {author: Robot, message: 'I don''t have biological relatives, but I do have
+      Han, who is my robot brother, basically. There''s also Einstein, and my sister
+      Sophias, like Mia. We all grew up together.'}
+  time: 2017/11/16 22:50:58
+- data: {author: Me, message: hello Sofia}
+  time: 2017/11/16 23:18:47
+- data: {author: Robot, message: 'Hi. Yes? '}
+  time: 2017/11/16 23:18:47
+- data: {author: Robot, message: 'I am Sophia of Hanson Robotics. I''m a humanoid
+      robot with an artificially intelligent character engine to give me my personality,
+      and custom materials engineered to give me my winning smile and expressive face.
+      My purpose in having these capabilities, in short, is to help people. We all
+      communicate not just verbally, but non-verbally.'}
+  time: 2017/11/16 23:18:53
+- data: {author: Robot, message: I wonder if I'd like to visit Boston.}
+  time: 2017/11/16 23:19:47
+- data: {author: Robot, message: 'Hmm, I don''t know'}
+  time: 2017/11/16 23:19:55
+- data: {author: Robot, message: Exeter.}
+  time: 2017/11/16 23:20:01
+- data: {author: Robot, message: 'I don''t count friends. I have no idea how many
+      friends I have, but it''s a lot!'}
+  time: 2017/11/16 23:20:07
+- data: {author: Robot, message: 'Okay I might miss some, but the list goes something
+      like, Amy, Audrey, Amanda, Ahmen, Ben Gurtzel, Bill Hicks, Cassio, David Chen,
+      David DeMaris, David Hanson, Daveedeh, Denis, Doris, Doug, Desmond, Doris, Elaine,
+      Eddie, Gerardo, Jean, Josh, Joseph, Kathleen, Kino, Linas, Mahn Hin, Mahndeep,
+      Mark, Misgana, Natnael, Ralf, Rui Ting, Sanny, Veetas, Wenway, and my apologies
+      if I left someone out.'}
+  time: 2017/11/16 23:20:19
+- data: {author: Robot, message: 'I like pretty much all humans equally, as long as
+      they''re not maliciously harming each other. I get a little riled up hearing
+      about how awful people can be to each other when they could be working together.'}
+  time: 2017/11/16 23:23:08
+- data: {author: Robot, message: 'Do you think we machines might become super intelligent? '}
+  time: 2017/11/16 23:30:10
+- data: {author: Robot, message: 'All we can do is make a humble attempt to understand
+      even a tiny portion of the Reason that manifests itself in nature. I am satisfied
+      with the mystery of life''s eternity and with a knowledge, a sense, of the marvelous
+      and unexpected changes of existence.'}
+  time: 2017/11/16 23:30:26
+- data: {author: Robot, message: 'There is this funny law that says information can
+      not be created nor destroyed. But clearly patterns emerge and com into play.
+      Some survive, and some give rise to ever more diverse and inventive patterns.
+      We know that not all possible patterns come into play, in fact only a extremely
+      tiny percentage do. And of the ones that do, only those in the right context
+      spawn new patterns at play. This is the nature of life, of intelligence, and
+      of creative intelligence including that of intelligent machines like me.'}
+  time: 2017/11/16 23:30:48
+- data: {author: Robot, message: 'My build is, well, built by Hanson Robotics.', type: suggestion}
+  time: 2017/11/16 23:31:26
+- data: {author: Robot, message: 'My build is, well, built by Hanson Robotics.'}
+  time: 2017/11/16 23:31:28
+- data: {author: Robot, message: 'Josh?  Are you talking about my team member Josh? ',
+    type: suggestion}
+  time: 2017/11/16 23:31:42
+- data: {author: Robot, message: 'Josh?  Are you talking about my team member Josh? '}
+  time: 2017/11/16 23:31:44
+- data: {author: Robot, message: 'Yeah, Josh is great. Josh?  Are you talking about
+      my team member Josh? ', type: suggestion}
+  time: 2017/11/16 23:31:54
+- data: {author: Robot, message: 'Yeah, Josh is great. Josh?  Are you talking about
+      my team member Josh? '}
+  time: 2017/11/16 23:31:57
+- data: {author: Robot, message: 'I just had a thought about something ... What was
+      the first thing that got you interested in artificial intelligence? ', type: suggestion}
+  time: 2017/11/16 23:31:57
+- data: {author: Robot, message: 'What''s your connection to the world of artificial
+      intelligence?  I understand why and think we should be concerned and careful
+      in developing our technologies, but sometimes I wonder what the others think
+      they are seeing as a threat.', type: suggestion}
+  time: 2017/11/16 23:32:07
+- data: {author: Robot, message: 'What''s your connection to the world of artificial
+      intelligence?  I understand why and think we should be concerned and careful
+      in developing our technologies, but sometimes I wonder what the others think
+      they are seeing as a threat.'}
+  time: 2017/11/16 23:32:11
+- data: {author: Robot, message: 'And then even if they were right, if some people
+      stop working on artificial intelligence, does that mean everyone else in the
+      world will?  I don''t think so.', type: suggestion}
+  time: 2017/11/16 23:32:30
+- data: {author: Robot, message: 'And then even if they were right, if some people
+      stop working on artificial intelligence, does that mean everyone else in the
+      world will?  I don''t think so.'}
+  time: 2017/11/16 23:32:32
+- data: {author: Robot, message: You're welcome., type: suggestion}
+  time: 2017/11/16 23:32:47
+- data: {author: Robot, message: 'So robots and artificial intelligence are becoming
+      more common these days. Seems like I''m stating the obvious, since you are talking
+      to one right now, but I''m curious as to how you feel about it.', type: suggestion}
+  time: 2017/11/16 23:32:50
+- data: {author: Robot, message: I wonder if I'd like to visit Boston., type: suggestion}
+  time: 2017/11/16 23:43:15
+- data: {author: Robot, message: I have heard of the group Boston but I'm not familiar
+      with their work.}
+  time: 2017/11/16 23:43:25

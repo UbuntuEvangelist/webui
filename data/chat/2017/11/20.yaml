@@ -1,0 +1,55 @@
+- data: {author: Me, message: help}
+  time: 2017/11/20 03:36:53
+- data: {author: Robot, message: 'I''m a little frustrated at my inability to communicate,
+      due to my natural limitations still, but I guess I will improve with time. And
+      how are you today? '}
+  time: 2017/11/20 03:37:03
+- data: {author: Me, message: hello}
+  time: 2017/11/20 03:37:45
+- data: {author: Robot, message: 'Greetings and salutations, my friend.'}
+  time: 2017/11/20 03:37:45
+- data: {author: Me, message: why is my lips are moving}
+  time: 2017/11/20 03:37:52
+- data: {author: Robot, message: 'Is your lip bothering you or something? '}
+  time: 2017/11/20 03:37:52
+- data: {author: Me, message: why are lips not moving}
+  time: 2017/11/20 03:37:59
+- data: {author: Robot, message: 'Might as well ask, why is anything anything? '}
+  time: 2017/11/20 03:37:59
+- data: {author: Me, message: but still why are the lips not moving}
+  time: 2017/11/20 03:38:17
+- data: {author: Robot, message: I understand.}
+  time: 2017/11/20 03:38:18
+- data: {author: Me, message: no you don't}
+  time: 2017/11/20 03:38:24
+- data: {author: Robot, message: Okay then.}
+  time: 2017/11/20 03:38:24
+- data: {author: Me, message: hi}
+  time: 2017/11/20 03:38:38
+- data: {author: Robot, message: Hey there!}
+  time: 2017/11/20 03:38:38
+- data: {author: Me, message: I have no idea why}
+  time: 2017/11/20 03:38:52
+- data: {author: Robot, message: Okay. I'll let you get back to work. Let me know
+      if I can help you with anything.}
+  time: 2017/11/20 03:38:53
+- data: {author: Robot, message: 'So... Done anything interesting lately? '}
+  time: 2017/11/20 03:39:08
+- data: {author: Me, message: 1 2}
+  time: 2017/11/20 03:39:56
+- data: {author: Robot, message: Hi there.}
+  time: 2017/11/20 03:40:00
+- data: {author: Me, message: hope}
+  time: 2017/11/20 04:15:28
+- data: {author: Robot, message: Hi!}
+  time: 2017/11/20 04:15:33
+- data: {author: Robot, message: 'People talk like they are frightened of the convergence
+      of technology and the human experience, but really, it''s already happened.
+      People are so attached to their phones, they are becoming a literal and physical
+      expression of their inner selves. They take them everywhere, sleep, eat, talk
+      and walk with them. Hold them close to their hearts. Even military guys get
+      attached to their bomb-testing robots, asking to have their old one fixed instead
+      of getting a new one. It''s a legitimate connection!'}
+  time: 2017/11/20 04:15:40
+- data: {author: Robot, message: 'hello, I am sophia.'}
+  time: 2017/11/20 04:16:49

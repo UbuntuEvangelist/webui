@@ -294,18 +294,12 @@ define(['jquery', 'roslib', './utilities'], function ($, ROSLIB, utilities) {
                 api.services.neckPauMux.callService(new ROSLIB.ServiceRequest({topic: "/blender_api/get_pau"}), function () {
                     return 0;
                 });
-                api.services.armsPauMux.callService(new ROSLIB.ServiceRequest({topic: "/blender_api/get_pau"}), function () {
-                    return 0;
-                });
             },
             disable: function () {
                 api.services.headPauMux.callService(new ROSLIB.ServiceRequest({topic: "/" + api.config.robot + "/no_pau"}), function () {
                     return 0;
                 });
                 api.services.neckPauMux.callService(new ROSLIB.ServiceRequest({topic: "/" + api.config.robot + "/cmd_neck_pau"}), function () {
-                    return 0;
-                });
-                api.services.armsPauMux.callService(new ROSLIB.ServiceRequest({topic: "/" + api.config.robot + "/no_pau"}), function () {
                     return 0;
                 });
             },

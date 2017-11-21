@@ -99,11 +99,6 @@ define(['jquery', 'roslib', 'js-yaml', './api'], function($, ROSLIB, jsyaml, api
                     name: '/blender_api/set_gesture',
                     messageType: 'blender_api_msgs/SetGesture'
                 }),
-                set_armanimation: new ROSLIB.Topic({
-                    ros: api.ros,
-                    name: '/blender_api/set_armanimation',
-                    messageType: 'blender_api_msgs/SetArmAnimation'
-                }),
                 set_emotion_state: new ROSLIB.Topic({
                     ros: api.ros,
                     name: '/blender_api/set_emotion_state',
@@ -249,11 +244,6 @@ define(['jquery', 'roslib', 'js-yaml', './api'], function($, ROSLIB, jsyaml, api
                 neckPauMux: new ROSLIB.Service({
                     ros: api.ros,
                     name: '/' + api.config.robot + '/neck_pau_mux/select',
-                    serviceType: 'topic_tools/MuxSelect'
-                }),
-                armsPauMux: new ROSLIB.Service({
-                    ros: api.ros,
-                    name: '/' + api.config.robot + '/arms_pau_mux/select',
                     serviceType: 'topic_tools/MuxSelect'
                 }),
                 expressionList: new ROSLIB.Service({
