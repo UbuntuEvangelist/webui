@@ -21,3 +21,7 @@
         <button type="button" class="app-webspeech-toggle btn btn-default">Enable</button>
     </div>
 </div>
+<div class="row">
+    <h2>ROS Samples: </h2>
+    <button type="button" class="app-demo-btn btn-default btn">Demo</button>
+</div>

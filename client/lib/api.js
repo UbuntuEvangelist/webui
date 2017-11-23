@@ -546,7 +546,26 @@ define(['jquery', 'roslib', './utilities'], function ($, ROSLIB, utilities) {
         },
         resumePololuSync:function(){
             this.topics.pololu_sync.publish({data: 'on'});
+        },
+
+
+        //ROS code here. on, off are callback  functions to call on turning on and off
+        demoButtonToggle: function(on, off){
+            // self reference
+            var self = this;
+            this.getRosParam('/demo', function (data) {
+                if (data && data == 'on'){
+                    self.topics.demo.publish({data: 'off'});
+                    self.setRosParam('/demo', 'off');
+                    off();
+                }else {
+                    self.topics.demo.publish({data: 'on'});
+                    self.setRosParam('/demo','on');
+                    on();
+                }
+            });
         }
+
     };
 
     return api;

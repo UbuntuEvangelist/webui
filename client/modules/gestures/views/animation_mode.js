@@ -16,7 +16,10 @@ define(['marionette', './templates/animation_mode.tpl', 'lib/api', 'jquery', 'ro
                 behaviorContainer: '.app-behavior-container',
                 lipsyncContainer: '.app-lipsync-container',
                 modeContainer: '.app-mode-container',
-                webspeechContainer: '.app-webspeech-container'
+                webspeechContainer: '.app-webspeech-container',
+                // Css class defines the element
+                demoToggleButton: '.app-demo-btn'
+
             },
             template: template,
             events: {
@@ -31,7 +34,9 @@ define(['marionette', './templates/animation_mode.tpl', 'lib/api', 'jquery', 'ro
                 'click @ui.btFTOffButton': "btFTOff",
                 'click @ui.modeButtons': "changePpMode",
                 'click @ui.lsOnButton': "lsOn",
-                'click @ui.lsOffButton': "lsOff"
+                'click @ui.lsOffButton': "lsOff",
+                'click @ui.demoToggleButton': "demoPressed"
+
             },
             initialize: function (options) {
                 this.mergeOptions(options, ['settings', 'language']);
@@ -174,6 +179,21 @@ define(['marionette', './templates/animation_mode.tpl', 'lib/api', 'jquery', 'ro
                         this.webspeechOn();
                     }
                 }
+            },
+            // View functin definition
+            demoPressed: function(){
+                // Define self reference to be used in callback functions
+                var self = this;
+                api.demoButtonToggle(
+                    // functions to be called once its on and off
+                    function(){
+                        // Change button label
+                        self.ui.demoToggleButton.html('ON').addClass('active')
+                    },
+                    function(){
+                        self.ui.demoToggleButton.html('OFF').removeClass('active')
+                    }
+                );
             }
         });
     });
