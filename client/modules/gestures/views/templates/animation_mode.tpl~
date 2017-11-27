@@ -20,12 +20,4 @@
         <h2>Webspeech: </h2>
         <button type="button" class="app-webspeech-toggle btn btn-default">Enable</button>
     </div>
-    <div class="app-arm-enable-btn">
-	<h2>Enable Arms: </h2>
-	<button type="button" class="app-arm-enable-btn btn-default btn">Arms</button>
-    </div>
-    <div class="app-arm-mode-btn">
-	<h2>Arms Mode: </h2>
-	<button type="button" class="app-arm-mode-btn btn-default btn">Standing</button>
-    </div>
 </div>

@@ -180,26 +180,6 @@ define(['marionette', './templates/animation_mode.tpl', 'lib/api', 'jquery', 'ro
                 }
             },
             armEnableToggle: function(){
-		var self = this;
-                api.armEnableToggle(
-		    function(){
-			self.ui.armEnableToggle.html('ON').addClass('active')
-		    },
-		    function(){
-			self.ui.armEnableToggle.html('OFF').removeClass('active')
-		    }
-		);
-	    },
-            armModeToggle: function(){
-		var self = this;
-                api.armModeToggle(
-		    function(){
-			self.ui.armModeToggle.html('ON').addClass('active')
-		    },
-		    function(){
-			self.ui.armModeToggle.html('OFF').removeClass('active')
-		    }
-		);
-	    }
+                api.
         });
     });

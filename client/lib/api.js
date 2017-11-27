@@ -552,7 +552,29 @@ define(['jquery', 'roslib', './utilities'], function ($, ROSLIB, utilities) {
         },
         resumePololuSync:function(){
             this.topics.pololu_sync.publish({data: 'on'});
-        }
+        },
+	armEnableToggle:function(on,off){
+	    this.getRosParam('/arms_enabled',function(data) {
+	        if(data && (data == 'on')){
+		    this.setRosParam('/arms_enabled','off');
+		    off();
+		} else {
+		    this.setRosParam('/arms_enabled','on');
+		    on();
+		}
+	    });
+	},
+	armModeToggle:function(sitting,standing){
+	    this.getRosParam('/arms_mode',function(data) {
+	        if(data && (data == 'sitting')){
+		    this.setRosParam('/arms_mode','standing');
+		    standing();
+		} else {
+		    this.setRosParam('/arms_mode','sitting');
+		    sitting();
+		}
+	    });
+	}
     };
 
     return api;
