@@ -5,7 +5,9 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server.js",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "author": "",
   "license": "BSD-2-Clause",
@@ -52,7 +54,8 @@
     "yaml-loader": "^0.4.0",
     "yargs": "^5.0.0",
     "icheck": "^1.0.2",
-    "spin.js": "^2.3.2"
+    "spin.js": "^2.3.2",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "autoprefixer": "^6.3.7",
@@ -73,5 +76,6 @@
     "underscore-template-loader": "^0.7.3",
     "url-loader": "^0.5.7",
     "webpack": "^1.13.2"
-  }
+  },
+  "snyk": true
 }
