@@ -42,7 +42,7 @@
     "mv": "^2.1.1",
     "nouislider": "^9.0.0",
     "perfect-scrollbar": "^0.6.12",
-    "python-shell": "^0.4.0",
+    "python-shell": "^0.5.0",
     "rimraf": "^2.6.1",
     "roslib": "^0.18.0",
     "select2": "^4.0.3",
